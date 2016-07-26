@@ -1,0 +1,21 @@
+*PADS-ECO-V3.0-MILS*
+*REMARK*  old file: D:\工作资料\烟感路~1\底板电路\20160719\ppcbnet.asc
+*REMARK*  new file: D:\工作资料\烟感路~1\底板电路\20160719\ROUTER.asc
+*REMARK*  created by ECOGEN (Version 6.0g) on 2016-7-25 15:11:41
+*DELPIN*
+D5.1  V4V
+D5.2  N15265682
+R32.2  V4V
+*DELPART*
+D5  DO_214AC_SMA
+*RENPART*
+C28  C32
+C32  C28
+*JOINNET*
+N15265682  V4V
+*NET*
+*SIGNAL*  12VM
+R32.2
+
+*REMARK*  Deleted pins: 3,  Added pins: 1
+*END*

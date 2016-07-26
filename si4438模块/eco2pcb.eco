@@ -1,0 +1,14 @@
+*PADS-ECO-V3.0-MILS*
+*REMARK*  old file: D:\工作资料\烟感路~1\SI4438~1\ppcbnet.asc
+*REMARK*  new file: D:\工作资料\烟感路~1\SI4438~1\WIRELESS.asc
+*REMARK*  created by ECOGEN (Version 6.0g) on 2016-7-22 16:22:49
+*PART*
+J1  SMA_TH_5_08MM
+*NET*
+*SIGNAL*  GND_EARTH
+J1.2  J1.3  J1.4  J1.5
+*SIGNAL*  N14966535
+J1.1
+
+*REMARK*  Deleted pins: 0,  Added pins: 5
+*END*

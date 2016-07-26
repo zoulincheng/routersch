@@ -1,0 +1,100 @@
+(ExpressProject "router"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\router.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    ([DRC0038] _Visible_unconnected_Power_Pins_are_connected_to_global_nets
+       "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File
+       "D:\工作资料\烟感路由STM32F103\底板电路\20160719\ROUTER.DRC"))
+  (Folder "Outputs"
+    (File ".\router.drc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (78L05
+      (FullPartName "78L05.Normal")
+      (LibraryName "D:\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "D:\ORCAD10_3\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LM2596
+      (FullPartName "LM2596.Normal")
+      (LibraryName "D:\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0"))
+    (NUP2105
+      (FullPartName "NUP2105.Normal")
+      (LibraryName "D:\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0"))
+    (TLP118
+      (FullPartName "TLP118.Normal")
+      (LibraryName "D:\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0"))
+    (PCA82C251
+      (FullPartName "PCA82C251.Normal")
+      (LibraryName "D:\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0"))
+    (CON8
+      (FullPartName "CON8.Normal")
+      (LibraryName "D:\ORCAD10_3\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (HY911105A
+      (FullPartName "HY911105A.Normal")
+      (LibraryName "D:\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0"))
+    (ENC28J60
+      (FullPartName "ENC28J60.Normal")
+      (LibraryName "D:\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "D:\工作资料\烟感路由STM32F103\底板电路\20160719\router.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 0 920 -4 -30 0 200 0 627"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 88 1788 116 777")
+        (Scroll "0 253")
+        (Zoom "162")
+        (Occurrence "/"))
+      (Path "D:\工作资料\烟感路由STM32F103\底板电路\20160719\ROUTER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "mcu"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -30 176 1876 232 893")
+        (Scroll "0 0")
+        (Zoom "78")
+        (Occurrence "/"))
+      (Path "D:\工作资料\烟感路由STM32F103\底板电路\20160719\ROUTER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "power"))))

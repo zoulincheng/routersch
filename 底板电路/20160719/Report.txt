@@ -1,0 +1,42 @@
+*PADS-ECO-V3.0-MILS*
+*REMARK*  old file: D:\工作资料\烟感路~1\底板电路\20160719\ppcbnet.asc
+*REMARK*  new file: D:\工作资料\烟感路~1\底板电路\20160719\ROUTER.asc
+*REMARK*  created by ECOGEN (Version 6.0g) on 2016-7-25 15:11:41
+
+PART DIFFERENCES
+----------------
+OLD DESIGN                                        NEW DESIGN
+Ref-des	Part-type:Decal                           Ref-des	Part-type:Decal
+C28   C0603                                       C32   C0603
+C32   C0603                                       C28   C0603
+D5   DO_214AC_SMA                                 <none>
+
+NET DIFFERENCES
+----------------
+OLD DESIGN                                        NEW DESIGN
+N15265682                                         V4V
+
+SWAPPED GATE DIFFERENCES
+------------------------
+OLD DESIGN                                        NEW DESIGN
+
+SWAPPED PIN DIFFERENCES
+------------------------
+OLD DESIGN                                        NEW DESIGN
+
+
+UNMATCHED NET PINS IN OLD DESIGN
+--------------------------------
+V4V                 D5.1	C31.1	R29.1	C32.1	J7.1	L1.2	
+                    R33.2	J7.2	C30.2	R32.2	U11.4	
+
+UNMATCHED NET PINS IN NEW DESIGN
+--------------------------------
+12VM                R32.2	
+
+ATTRIBUTE DIFFERENCES
+---------------------
+Attribute Level	[ OLD DESIGN Parent -> NEW DESIGN Parent ]
+
+          Attribute Name           Old Value                New Value
+

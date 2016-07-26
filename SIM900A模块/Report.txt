@@ -1,0 +1,52 @@
+*PADS-ECO-V3.0-MILS*
+*REMARK*  old file: D:\工作资料\烟感路~1\SIM900~1\ppcbnet.asc
+*REMARK*  new file: D:\工作资料\烟感路~1\SIM900~1\SIM900A.asc
+*REMARK*  created by ECOGEN (Version 6.0g) on 2016-7-22 14:55:25
+
+PART DIFFERENCES
+----------------
+OLD DESIGN                                        NEW DESIGN
+Ref-des	Part-type:Decal                           Ref-des	Part-type:Decal
+
+NET DIFFERENCES
+----------------
+OLD DESIGN                                        NEW DESIGN
+<none>                                            DBGRXD
+<none>                                            DBGTXD
+<none>                                            NET_LIGHT
+<none>                                            PWRKEY
+<none>                                            STATUS
+<none>                                            S_DBGTXD
+
+SWAPPED GATE DIFFERENCES
+------------------------
+OLD DESIGN                                        NEW DESIGN
+
+SWAPPED PIN DIFFERENCES
+------------------------
+OLD DESIGN                                        NEW DESIGN
+
+
+UNMATCHED NET PINS IN OLD DESIGN
+--------------------------------
+DBGRXD              R18.2	J4.6	
+DBGTXD              U1.27	J4.5	
+PWRKEY              R9.1	J4.10	
+STATUS              J4.11	U1.66	
+S_DBGRXD            R18.1	U1.28	
+
+UNMATCHED NET PINS IN NEW DESIGN
+--------------------------------
+DBGRXD              U1.28	J4.6	
+DBGTXD              R18.2	J4.5	
+NET_LIGHT           R5.1	U1.52	
+PWRKEY              R9.1	J4.11	
+STATUS              J4.12	U1.66	
+S_DBGTXD            R18.1	U1.27	
+
+ATTRIBUTE DIFFERENCES
+---------------------
+Attribute Level	[ OLD DESIGN Parent -> NEW DESIGN Parent ]
+
+          Attribute Name           Old Value                New Value
+

@@ -1,0 +1,2308 @@
+**  PCBNavigator Data Base
+**  ------------------------------------------
+**
+**  OrCAD Capture Version = 10.3.0.p001
+**  Design  : D:\工作资料\烟感路由STM32F103\底板电路\20160719\ROUTER.DSN
+**
+DATABASE VERSION 4.0
+O1|l|0x3|D:\\工作资料\\烟感路由STM32F103\\底板电路\\20160719\\ROUTER.DSN
+ UID=-1,OBJECTID=1,VENDOR="Orcad",VERSION="10.3.0.p001","Library guid"="{F6FB4ABA-7C52-4013-95BB-A6314B4B1F1B}",Name="D:\\工作资料\\烟感路由STM32F103\\底板电路\\20160719\\ROUTER.DSN","Root View"="SCHEMATIC1","Power Pins Visible"=False,"Create Time"="Tuesday, July 19, 2016","Modify Time"="Monday, July 25, 2016","Default PinName Font"="Arial",&
+ "Default PinNumber Font"="Arial","Default Part Reference Font"="Arial","Default No Connect Font"="Arial","Default ERC Font"="Arial","Default Bookmark Font"="Arial","Default Power Font"="Arial","Default Offpage Connector Font"="Arial","Default Port Font"="Arial","Default Part Value Font"="Arial","Default Property Font"="Arial",&
+ "Default Drawn Instance Name Font"="Arial","Default Alias Font"="Arial","Default Comment Font"="Courier New","Default Titleblock Font"="Arial","Default Border Font"="Arial","Default Net Name Font"="Arial","Default Placed Instance Is Primitive"=True,"Default Drawn Instance Is Primitive"=False,"Default Simulus font"="Arial",&
+ "Default PSpice Source font"="Arial","Default PSpice Simulation Directive font"="Arial","Default PSpice ABM Symbol font"="Arial","Default Parameter font"="Arial","Default Optimizer font"="Arial","Default Graphic Object Symbol font"="Arial",
+O513|C|0x3|Default
+ UID=-1,OBJECTID=513,"Net Name"="Default",UNITS="0",VIAMODE="T",LINEWIDTH=6,COPPER_SHARE="Y",RIPUP="Y",SHOVE="Y",SHOVE_PROTECTED="N",AUTO_ROUTE="Y",ROUTE_PRIORITY="3",LENGTH_MINIMIZATION_TYPE="2",VALID_LAYER="\"\"",VALID_VIA_TYPE="\"\"",PARALLEL_LENGTH=1000,PARALLEL_GAP=200,TANDEM_LENGTH=1000,TANDEM_GAP=200,MAX_LENGTH=50000,MIN_LENGTH=0,&
+ STUB_LENGTH=1000,MIN_DELAY=0.000,MAX_DELAY=10.000,MIN_CAPACITANCE=0.000,MAX_CAPACITANCE=10.000,MIN_IMPEDANCE=50.000,MAX_IMPEDANCE=150.000,MATCHING_LENGTH=0,MATCH_LENGTH_TOLERANCE=200,SHIELD_GAP=200,SHIELD_NET="\"\"",AGGRESSOR="N",TRACK_TO_TRACK=6,VIA_TO_TRACK=6,VIA_TO_VIA=6,PAD_TO_TRACK=6,PAD_TO_VIA=6,PAD_TO_PAD=6,SMD_TO_TRACK=6,&
+ SMD_TO_VIA=6,SMD_TO_PAD=6,SMD_TO_SMD=6,COPPER_TO_TRACK=6,COPPER_TO_VIA=6,COPPER_TO_PAD=6,COPPER_TO_SMD=6,TEXT_TO_TRACK=6,TEXT_TO_VIA=6,TEXT_TO_PAD=6,TEXT_TO_SMD=6,OUTLINE_TO_TRACK=6,OUTLINE_TO_PAD=6,OUTLINE_TO_VIA=6,OUTLINE_TO_SMD=6,DRILL_TO_TRACK=6,DRILL_TO_PAD=6,DRILL_TO_VIA=6,DRILL_TO_SMD=6,SAME_NET_SMD_TO_VIA=6,SAME_NET_SMD_TO_CRN=6,&
+ SAME_NET_VIA_TO_VIA=6,SAME_NET_PAD_TO_CRN=6,MIN_TRACK_WIDTH=6,REC_TRACK_WIDTH=12,MAX_TRACK_WIDTH=12,DRILL_TO_DRILL=6,BODY_TO_BODY=6,CLS_COPPER_SHARE="Y",CLS_RIPUP="Y",CLS_SHOVE="Y",CLS_SHOVE_PROTECTED="N",CLS_AUTO_ROUTE="Y",CLS_ROUTE_PRIORITY="3",CLS_LENGTH_MINIMIZATION_TYPE="2",CLS_VALID_LAYER="\"\"",CLS_VALID_VIA_TYPE="\"\"",&
+ CLS_PARALLEL_LENGTH=1000,CLS_PARALLEL_GAP=200,CLS_TANDEM_LENGTH=1000,CLS_TANDEM_GAP=200,CLS_MAX_LENGTH=50000,CLS_MIN_LENGTH=0,CLS_STUB_LENGTH=1000,CLS_MIN_DELAY=0.000,CLS_MAX_DELAY=10.000,CLS_MIN_CAPACITANCE=0.000,CLS_MAX_CAPACITANCE=10.000,CLS_MIN_IMPEDANCE=50.000,CLS_MAX_IMPEDANCE=150.000,CLS_MATCHING_LEGNTH=0,&
+ CLS_MATCH_LENGTH_TOLERANCE=200,CLS_AGGRESSOR="N",CLS_TRACK_TO_TRACK=6,CLS_VIA_TO_TRACK=6,CLS_VIA_TO_VIA=6,CLS_PAD_TO_TRACK=6,CLS_PAD_TO_VIA=6,CLS_PAD_TO_PAD=6,CLS_SMD_TO_TRACK=6,CLS_SMD_TO_VIA=6,CLS_SMD_TO_PAD=6,CLS_SMD_TO_SMD=6,CLS_COPPER_TO_TRACK=6,CLS_COPPER_TO_VIA=6,CLS_COPPER_TO_PAD=6,CLS_COPPER_TO_SMD=6,CLS_TEXT_TO_TRACK=6,&
+ CLS_TEXT_TO_VIA=6,CLS_TEXT_TO_PAD=6,CLS_TEXT_TO_SMD=6,CLS_OUTLINE_TO_TRACK=6,CLS_OUTLINE_TO_PAD=6,CLS_OUTLINE_TO_VIA=6,CLS_OUTLINE_TO_SMD=6,CLS_DRILL_TO_TRACK=6,CLS_DRILL_TO_PAD=6,CLS_DRILL_TO_VIA=6,CLS_DRILL_TO_SMD=6,CLS_SAME_NET_SMD_TO_VIA=6,CLS_SAME_NET_SMD_TO_CRN=6,CLS_SAME_NET_VIA_TO_VIA=6,CLS_SAME_NET_PAD_TO_CRN=6,&
+ CLS_MIN_TRACK_WIDTH=6,CLS_REC_TRACK_WIDTH=12,CLS_MAX_TRACK_WIDTH=12,CLS_DRILL_TO_DRILL=6,CLS_BODY_TO_BODY=6,
+O514|?|0x3|ParentLayer
+ UID=-1,OBJECTID=514,
+O515|?|0x3|Top
+ UID=-1,OBJECTID=515,LayerDirection="H",LayerName="TOP",LayerNo=1,LayerType="CM",TotalNoOfLayers=2,LayerID=515,
+E1|-1|514|515||
+E2|-1|513|515|~
+O516|?|0x3|Bottom
+ UID=-1,OBJECTID=516,LayerDirection="V",LayerName="BOTTOM",LayerNo=2,LayerType="CM",TotalNoOfLayers=2,LayerID=516,
+E3|-1|514|516||
+E4|-1|513|516|~
+O2|l|0x3|Classes
+ UID=-1,OBJECTID=2,
+O3|l|0x3|PinPairs
+ UID=-1,OBJECTID=3,
+O4|l|0x3|Mentor Expedition
+ UID=-1,OBJECTID=4,
+O517|h|0x3|(Master)
+ UID=-1,OBJECTID=517,
+E5|-1|4|517||
+O5|l|0x3|Expedition Classes
+ UID=-1,OBJECTID=5,
+E6|-1|4|5||
+O518|b|0x3|(Default)
+ UID=-1,OBJECTID=518,
+E7|-1|5|518|>
+O519|e|0x3|(Default Rule)
+ UID=-1,OBJECTID=519,
+E8|-1|4|519||
+O6|l|0x3|Expedition Parent Layer
+ UID=-1,OBJECTID=6,
+E9|-1|4|6||
+O520|?|0x3|Layer1
+ UID=-1,OBJECTID=520,
+E10|-1|6|520||
+O521|f|0x3|Dummy
+ UID=-1,OBJECTID=521,
+E11|521|517|520|~
+O522|m|0x3|Class Info
+ UID=-1,OBJECTID=522,
+E12|522|518|521|~
+O523|r|0x3|Rule Info
+ UID=-1,OBJECTID=523,
+E13|523|519|521|~
+O524|?|0x3|Layer2
+ UID=-1,OBJECTID=524,
+E14|-1|6|524||
+O525|f|0x3|Dummy
+ UID=-1,OBJECTID=525,
+E15|525|517|524|~
+O526|m|0x3|Class Info
+ UID=-1,OBJECTID=526,
+E16|526|518|525|~
+O527|r|0x3|Rule Info
+ UID=-1,OBJECTID=527,
+E17|527|519|525|~
+O528|?|0x3|Layer3
+ UID=-1,OBJECTID=528,
+E18|-1|6|528||
+O529|f|0x3|Dummy
+ UID=-1,OBJECTID=529,
+E19|529|517|528|~
+O530|m|0x3|Class Info
+ UID=-1,OBJECTID=530,
+E20|530|518|529|~
+O531|r|0x3|Rule Info
+ UID=-1,OBJECTID=531,
+E21|531|519|529|~
+O532|?|0x3|Layer4
+ UID=-1,OBJECTID=532,
+E22|-1|6|532||
+O533|f|0x3|Dummy
+ UID=-1,OBJECTID=533,
+E23|533|517|532|~
+O534|m|0x3|Class Info
+ UID=-1,OBJECTID=534,
+E24|534|518|533|~
+O535|r|0x3|Rule Info
+ UID=-1,OBJECTID=535,
+E25|535|519|533|~
+O7|l|0x3|PCAD Root
+ UID=-1,OBJECTID=7,
+O8|l|0x3|PCAD Classes
+ UID=-1,OBJECTID=8,
+E26|-1|7|8||
+O536|x|0x3|N15143461
+ UID=1004,OBJECTID=536,NameExpedition="N15143461","Net Name"="N15143461","Net ID"=1004,"Is Global"=False,
+E27|-1|1|536||
+O537|.|0x3|U6/VO
+ UID=999,OBJECTID=537,NameExpedition="VO",Name="VO",Number="4","Swap Id"=-1,Type=Passive,"Net Name"="N15143461",Order=3,"Is No Connect"=False,
+E28|-1|536|537|>
+O538|.|0x3|R15/1
+ UID=1002,OBJECTID=538,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15143461",Order=0,"Is No Connect"=False,
+E29|-1|536|538|>
+O539|.|0x3|U5/TXD
+ UID=987,OBJECTID=539,NameExpedition="TXD",Name="TXD",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15143461",Order=0,"Is No Connect"=False,
+E30|-1|536|539|>
+O540|x|0x3|N15145587
+ UID=1008,OBJECTID=540,NameExpedition="N15145587","Net Name"="N15145587","Net ID"=1008,"Is Global"=False,
+E31|-1|1|540||
+O541|.|0x3|U6/ANODE
+ UID=996,OBJECTID=541,NameExpedition="ANODE",Name="ANODE",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15145587",Order=0,"Is No Connect"=False,
+E32|-1|540|541|>
+O542|.|0x3|R17/2
+ UID=1007,OBJECTID=542,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="N15145587",Order=1,"Is No Connect"=False,
+E33|-1|540|542|>
+O543|x|0x3|N15164595
+ UID=1020,OBJECTID=543,NameExpedition="N15164595","Net Name"="N15164595","Net ID"=1020,"Is Global"=False,
+E34|-1|1|543||
+O544|.|0x3|U8/CATHODE
+ UID=1012,OBJECTID=544,NameExpedition="CATHODE",Name="CATHODE",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="N15164595",Order=1,"Is No Connect"=False,
+E35|-1|543|544|>
+O545|.|0x3|U5/RXD
+ UID=990,OBJECTID=545,NameExpedition="RXD",Name="RXD",Number="4","Swap Id"=-1,Type=Passive,"Net Name"="N15164595",Order=3,"Is No Connect"=False,
+E36|-1|543|545|>
+O546|x|0x3|N15169355
+ UID=1024,OBJECTID=546,NameExpedition="N15169355","Net Name"="N15169355","Net ID"=1024,"Is Global"=False,
+E37|-1|1|546||
+O547|.|0x3|U8/ANODE
+ UID=1011,OBJECTID=547,NameExpedition="ANODE",Name="ANODE",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15169355",Order=0,"Is No Connect"=False,
+E38|-1|546|547|>
+O548|.|0x3|R21/1
+ UID=1022,OBJECTID=548,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15169355",Order=0,"Is No Connect"=False,
+E39|-1|546|548|>
+O549|x|0x3|PWRKEY
+ UID=1282,OBJECTID=549,NameExpedition="PWRKEY","Net Name"="PWRKEY","Net ID"=1282,"Is Global"=False,
+E40|-1|1|549||
+O550|.|0x3|J7/11
+ UID=1280,OBJECTID=550,NameExpedition="11",Name="11",Number="11","Swap Id"=-1,Type=Passive,"Net Name"="PWRKEY",Order=10,"Is No Connect"=False,
+E41|-1|549|550|>
+O551|.|0x3|U4/NJRST/PB4
+ UID=606,OBJECTID=551,NameExpedition="NJRST/PB4",Name="NJRST/PB4",Number="56","Swap Id"=-1,Type=Passive,"Net Name"="PWRKEY",Order=55,"Is No Connect"=False,
+E42|-1|549|551|>
+O552|x|0x3|GND POWER
+ UID=1287,OBJECTID=552,NameExpedition="GND%POWER","Net Name"="GND POWER","Net ID"=1287,"Is Global"=True,
+E43|-1|1|552||
+O553|.|0x3|J7/3
+ UID=1272,OBJECTID=553,NameExpedition="3",Name="3",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="GND POWER",Order=2,"Is No Connect"=False,
+E44|-1|552|553|>
+O554|.|0x3|J7/4
+ UID=1273,OBJECTID=554,NameExpedition="4",Name="4",Number="4","Swap Id"=-1,Type=Passive,"Net Name"="GND POWER",Order=3,"Is No Connect"=False,
+E45|-1|552|554|>
+O555|.|0x3|C16/2
+ UID=874,OBJECTID=555,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND POWER",Order=1,"Is No Connect"=False,
+E46|-1|552|555|>
+O556|x|0x3|STATUS
+ UID=1288,OBJECTID=556,NameExpedition="STATUS","Net Name"="STATUS","Net ID"=1288,"Is Global"=False,
+E47|-1|1|556||
+O557|.|0x3|J7/12
+ UID=1281,OBJECTID=557,NameExpedition="12",Name="12",Number="12","Swap Id"=-1,Type=Passive,"Net Name"="STATUS",Order=11,"Is No Connect"=False,
+E48|-1|556|557|>
+O558|.|0x3|U4/PB5
+ UID=607,OBJECTID=558,NameExpedition="PB5",Name="PB5",Number="57","Swap Id"=-1,Type=Passive,"Net Name"="STATUS",Order=56,"Is No Connect"=False,
+E49|-1|556|558|>
+O559|x|0x3|SRST
+ UID=1289,OBJECTID=559,NameExpedition="SRST","Net Name"="SRST","Net ID"=1289,"Is Global"=False,
+E50|-1|1|559||
+O560|.|0x3|J7/8
+ UID=1277,OBJECTID=560,NameExpedition="8",Name="8",Number="8","Swap Id"=-1,Type=Passive,"Net Name"="SRST",Order=7,"Is No Connect"=False,
+E51|-1|559|560|>
+O561|.|0x3|U4/TDO/PB3
+ UID=605,OBJECTID=561,NameExpedition="TDO/PB3",Name="TDO/PB3",Number="55","Swap Id"=-1,Type=Passive,"Net Name"="SRST",Order=54,"Is No Connect"=False,
+E52|-1|559|561|>
+O562|x|0x3|UART5_RX
+ UID=1292,OBJECTID=562,NameExpedition="UART5_RX","Net Name"="UART5_RX","Net ID"=1292,"Is Global"=False,
+E53|-1|1|562||
+O563|.|0x3|J7/5
+ UID=1274,OBJECTID=563,NameExpedition="5",Name="5",Number="5","Swap Id"=-1,Type=Passive,"Net Name"="UART5_RX",Order=4,"Is No Connect"=False,
+E54|-1|562|563|>
+O564|.|0x3|U4/PD2/UART5_RX
+ UID=604,OBJECTID=564,NameExpedition="PD2/UART5_RX",Name="PD2/UART5_RX",Number="54","Swap Id"=-1,Type=Passive,"Net Name"="UART5_RX",Order=53,"Is No Connect"=False,
+E55|-1|562|564|>
+O565|x|0x3|UART5_TX
+ UID=1293,OBJECTID=565,NameExpedition="UART5_TX","Net Name"="UART5_TX","Net ID"=1293,"Is Global"=False,
+E56|-1|1|565||
+O566|.|0x3|J7/6
+ UID=1275,OBJECTID=566,NameExpedition="6",Name="6",Number="6","Swap Id"=-1,Type=Passive,"Net Name"="UART5_TX",Order=5,"Is No Connect"=False,
+E57|-1|565|566|>
+O567|.|0x3|U4/PC12/UART5_TX
+ UID=603,OBJECTID=567,NameExpedition="PC12/UART5_TX",Name="PC12/UART5_TX",Number="53","Swap Id"=-1,Type=Passive,"Net Name"="UART5_TX",Order=52,"Is No Connect"=False,
+E58|-1|565|567|>
+O568|x|0x3|N15193253
+ UID=1048,OBJECTID=568,NameExpedition="N15193253","Net Name"="N15193253","Net ID"=1048,"Is Global"=False,
+E59|-1|1|568||
+O569|.|0x3|U5/RS
+ UID=991,OBJECTID=569,NameExpedition="RS",Name="RS",Number="8","Swap Id"=-1,Type=Passive,"Net Name"="N15193253",Order=4,"Is No Connect"=False,
+E60|-1|568|569|>
+O570|.|0x3|R16/1
+ UID=1046,OBJECTID=570,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15193253",Order=0,"Is No Connect"=False,
+E61|-1|568|570|>
+O571|x|0x3|N15335860
+ UID=1301,OBJECTID=571,NameExpedition="N15335860","Net Name"="N15335860","Net ID"=1301,"Is Global"=False,
+E62|-1|1|571||
+O572|.|0x3|U13/FeedBack
+ UID=1200,OBJECTID=572,NameExpedition="FeedBack",Name="FeedBack",Number="4","Swap Id"=-1,Type=Passive,"Net Name"="N15335860",Order=4,"Is No Connect"=False,
+E63|-1|571|572|>
+O573|.|0x3|C30/1
+ UID=1209,OBJECTID=573,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15335860",Order=0,"Is No Connect"=False,
+E64|-1|571|573|>
+O574|.|0x3|R33/1
+ UID=1206,OBJECTID=574,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15335860",Order=0,"Is No Connect"=False,
+E65|-1|571|574|>
+O575|.|0x3|R34/1
+ UID=1202,OBJECTID=575,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15335860",Order=0,"Is No Connect"=False,
+E66|-1|571|575|>
+O576|x|0x3|N15082873
+ UID=1304,OBJECTID=576,NameExpedition="N15082873","Net Name"="N15082873","Net ID"=1304,"Is Global"=False,
+E67|-1|1|576||
+O577|.|0x3|RJ45_1/LED_G+
+ UID=806,OBJECTID=577,NameExpedition="LED_G+",Name="LED_G+",Number="9","Swap Id"=-1,Type=Passive,"Net Name"="N15082873",Order=8,"Is No Connect"=False,
+E68|-1|576|577|>
+O578|.|0x3|R27/2
+ UID=836,OBJECTID=578,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="N15082873",Order=1,"Is No Connect"=False,
+E69|-1|576|578|>
+O579|x|0x3|N15084024
+ UID=1305,OBJECTID=579,NameExpedition="N15084024","Net Name"="N15084024","Net ID"=1305,"Is Global"=False,
+E70|-1|1|579||
+O580|.|0x3|RJ45_1/LED_Y+
+ UID=808,OBJECTID=580,NameExpedition="LED_Y+",Name="LED_Y+",Number="11","Swap Id"=-1,Type=Passive,"Net Name"="N15084024",Order=10,"Is No Connect"=False,
+E71|-1|579|580|>
+O581|.|0x3|R28/2
+ UID=840,OBJECTID=581,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="N15084024",Order=1,"Is No Connect"=False,
+E72|-1|579|581|>
+O582|x|0x3|ENC_CS
+ UID=811,OBJECTID=582,NameExpedition="ENC_CS","Net Name"="ENC_CS","Net ID"=811,"Is Global"=False,
+E73|-1|1|582||
+O583|.|0x3|U10//CS
+ UID=777,OBJECTID=583,NameExpedition="/CS",Name="/CS",Number="9","Swap Id"=-1,Type=Passive,"Net Name"="ENC_CS",Order=8,"Is No Connect"=False,
+E74|-1|582|583|>
+O584|.|0x3|U4/SPI2_NSS/PB12
+ UID=583,OBJECTID=584,NameExpedition="SPI2_NSS/PB12",Name="SPI2_NSS/PB12",Number="33","Swap Id"=-1,Type=Passive,"Net Name"="ENC_CS",Order=32,"Is No Connect"=False,
+E75|-1|582|584|>
+O585|x|0x3|N15382031
+ UID=1314,OBJECTID=585,NameExpedition="N15382031","Net Name"="N15382031","Net ID"=1314,"Is Global"=False,
+E76|-1|1|585||
+O586|.|0x3|R23/2
+ UID=869,OBJECTID=586,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="N15382031",Order=1,"Is No Connect"=False,
+E77|-1|585|586|>
+O587|.|0x3|C16/1
+ UID=873,OBJECTID=587,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15382031",Order=0,"Is No Connect"=False,
+E78|-1|585|587|>
+O588|.|0x3|R22/2
+ UID=865,OBJECTID=588,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="N15382031",Order=1,"Is No Connect"=False,
+E79|-1|585|588|>
+O589|x|0x3|ENC_RST
+ UID=813,OBJECTID=589,NameExpedition="ENC_RST","Net Name"="ENC_RST","Net ID"=813,"Is Global"=False,
+E80|-1|1|589||
+O590|.|0x3|U10//RESET
+ UID=778,OBJECTID=590,NameExpedition="/RESET",Name="/RESET",Number="10","Swap Id"=-1,Type=Passive,"Net Name"="ENC_RST",Order=9,"Is No Connect"=False,
+E81|-1|589|590|>
+O591|.|0x3|U4/PC7
+ UID=588,OBJECTID=591,NameExpedition="PC7",Name="PC7",Number="38","Swap Id"=-1,Type=Passive,"Net Name"="ENC_RST",Order=37,"Is No Connect"=False,
+E82|-1|589|591|>
+O592|x|0x3|ENC_SCK
+ UID=815,OBJECTID=592,NameExpedition="ENC_SCK","Net Name"="ENC_SCK","Net ID"=815,"Is Global"=False,
+E83|-1|1|592||
+O593|.|0x3|U10/SCK
+ UID=776,OBJECTID=593,NameExpedition="SCK",Name="SCK",Number="8","Swap Id"=-1,Type=Passive,"Net Name"="ENC_SCK",Order=7,"Is No Connect"=False,
+E84|-1|592|593|>
+O594|.|0x3|U4/SPI2_SCK/PB13
+ UID=584,OBJECTID=594,NameExpedition="SPI2_SCK/PB13",Name="SPI2_SCK/PB13",Number="34","Swap Id"=-1,Type=Passive,"Net Name"="ENC_SCK",Order=33,"Is No Connect"=False,
+E85|-1|592|594|>
+O595|x|0x3|N15108494
+ UID=1319,OBJECTID=595,NameExpedition="N15108494","Net Name"="N15108494","Net ID"=1319,"Is Global"=False,
+E86|-1|1|595||
+O596|.|0x3|RJ45_1/P4
+ UID=801,OBJECTID=596,NameExpedition="P4",Name="P4",Number="4","Swap Id"=-1,Type=Passive,"Net Name"="N15108494",Order=3,"Is No Connect"=False,
+E87|-1|595|596|>
+O597|.|0x3|R24/2
+ UID=884,OBJECTID=597,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="N15108494",Order=1,"Is No Connect"=False,
+E88|-1|595|597|>
+O598|.|0x3|C18/1
+ UID=891,OBJECTID=598,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15108494",Order=0,"Is No Connect"=False,
+E89|-1|595|598|>
+O599|.|0x3|R25/2
+ UID=889,OBJECTID=599,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="N15108494",Order=1,"Is No Connect"=False,
+E90|-1|595|599|>
+O600|.|0x3|FB1/2
+ UID=895,OBJECTID=600,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="N15108494",Order=1,"Is No Connect"=False,
+E91|-1|595|600|>
+O601|x|0x3|ENC_SI
+ UID=818,OBJECTID=601,NameExpedition="ENC_SI","Net Name"="ENC_SI","Net ID"=818,"Is Global"=False,
+E92|-1|1|601||
+O602|.|0x3|U10/SI
+ UID=775,OBJECTID=602,NameExpedition="SI",Name="SI",Number="7","Swap Id"=-1,Type=Passive,"Net Name"="ENC_SI",Order=6,"Is No Connect"=False,
+E93|-1|601|602|>
+O603|.|0x3|U4/SPI2_MOSI/PB15
+ UID=586,OBJECTID=603,NameExpedition="SPI2_MOSI/PB15",Name="SPI2_MOSI/PB15",Number="36","Swap Id"=-1,Type=Passive,"Net Name"="ENC_SI",Order=35,"Is No Connect"=False,
+E94|-1|601|603|>
+O604|x|0x3|N15224368
+ UID=1071,OBJECTID=604,NameExpedition="N15224368","Net Name"="N15224368","Net ID"=1071,"Is Global"=False,
+E95|-1|1|604||
+O605|.|0x3|R19/1
+ UID=1055,OBJECTID=605,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15224368",Order=0,"Is No Connect"=False,
+E96|-1|604|605|>
+O606|.|0x3|C12/1
+ UID=1073,OBJECTID=606,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15224368",Order=0,"Is No Connect"=False,
+E97|-1|604|606|>
+O607|.|0x3|R18/1
+ UID=1052,OBJECTID=607,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15224368",Order=0,"Is No Connect"=False,
+E98|-1|604|607|>
+O608|x|0x3|ENC_SO
+ UID=820,OBJECTID=608,NameExpedition="ENC_SO","Net Name"="ENC_SO","Net ID"=820,"Is Global"=False,
+E99|-1|1|608||
+O609|.|0x3|U10/SO
+ UID=774,OBJECTID=609,NameExpedition="SO",Name="SO",Number="6","Swap Id"=-1,Type=Passive,"Net Name"="ENC_SO",Order=5,"Is No Connect"=False,
+E100|-1|608|609|>
+O610|.|0x3|U4/SPI2_MISO/PB14
+ UID=585,OBJECTID=610,NameExpedition="SPI2_MISO/PB14",Name="SPI2_MISO/PB14",Number="35","Swap Id"=-1,Type=Passive,"Net Name"="ENC_SO",Order=34,"Is No Connect"=False,
+E101|-1|608|610|>
+O611|x|0x3|ENC_INT
+ UID=822,OBJECTID=611,NameExpedition="ENC_INT","Net Name"="ENC_INT","Net ID"=822,"Is Global"=False,
+E102|-1|1|611||
+O612|.|0x3|U10//INT
+ UID=772,OBJECTID=612,NameExpedition="/INT",Name="/INT",Number="4","Swap Id"=-1,Type=Passive,"Net Name"="ENC_INT",Order=3,"Is No Connect"=False,
+E103|-1|611|612|>
+O613|.|0x3|U4/PC6
+ UID=587,OBJECTID=613,NameExpedition="PC6",Name="PC6",Number="37","Swap Id"=-1,Type=Passive,"Net Name"="ENC_INT",Order=36,"Is No Connect"=False,
+E104|-1|611|613|>
+O614|x|0x3|TPOUT+
+ UID=825,OBJECTID=614,NameExpedition="TPOUT+","Net Name"="TPOUT+","Net ID"=825,"Is Global"=False,
+E105|-1|1|614||
+O615|.|0x3|U10/TPOUT+
+ UID=794,OBJECTID=615,NameExpedition="TPOUT+",Name="TPOUT+",Number="17","Swap Id"=-1,Type=Passive,"Net Name"="TPOUT+",Order=25,"Is No Connect"=False,
+E106|-1|614|615|>
+O616|.|0x3|RJ45_1/P1_TD+
+ UID=798,OBJECTID=616,NameExpedition="P1_TD+",Name="P1_TD+",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="TPOUT+",Order=0,"Is No Connect"=False,
+E107|-1|614|616|>
+O617|.|0x3|R25/1
+ UID=888,OBJECTID=617,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="TPOUT+",Order=0,"Is No Connect"=False,
+E108|-1|614|617|>
+O618|x|0x3|TPOUT-
+ UID=826,OBJECTID=618,NameExpedition="TPOUT-","Net Name"="TPOUT-","Net ID"=826,"Is Global"=False,
+E109|-1|1|618||
+O619|.|0x3|U10/TPOUT-
+ UID=795,OBJECTID=619,NameExpedition="TPOUT-",Name="TPOUT-",Number="16","Swap Id"=-1,Type=Passive,"Net Name"="TPOUT-",Order=26,"Is No Connect"=False,
+E110|-1|618|619|>
+O620|.|0x3|RJ45_1/P2_TD-
+ UID=799,OBJECTID=620,NameExpedition="P2_TD-",Name="P2_TD-",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="TPOUT-",Order=1,"Is No Connect"=False,
+E111|-1|618|620|>
+O621|.|0x3|R24/1
+ UID=883,OBJECTID=621,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="TPOUT-",Order=0,"Is No Connect"=False,
+E112|-1|618|621|>
+O622|x|0x3|LEDB
+ UID=831,OBJECTID=622,NameExpedition="LEDB","Net Name"="LEDB","Net ID"=831,"Is Global"=False,
+E113|-1|1|622||
+O623|.|0x3|U10/LEDB
+ UID=785,OBJECTID=623,NameExpedition="LEDB",Name="LEDB",Number="26","Swap Id"=-1,Type=Passive,"Net Name"="LEDB",Order=16,"Is No Connect"=False,
+E114|-1|622|623|>
+O624|.|0x3|R28/1
+ UID=839,OBJECTID=624,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="LEDB",Order=0,"Is No Connect"=False,
+E115|-1|622|624|>
+O625|x|0x3|LEDA
+ UID=832,OBJECTID=625,NameExpedition="LEDA","Net Name"="LEDA","Net ID"=832,"Is Global"=False,
+E116|-1|1|625||
+O626|.|0x3|U10/LEDA
+ UID=784,OBJECTID=626,NameExpedition="LEDA",Name="LEDA",Number="27","Swap Id"=-1,Type=Passive,"Net Name"="LEDA",Order=15,"Is No Connect"=False,
+E117|-1|625|626|>
+O627|.|0x3|R27/1
+ UID=835,OBJECTID=627,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="LEDA",Order=0,"Is No Connect"=False,
+E118|-1|625|627|>
+O628|x|0x3|ENC_OSC1
+ UID=850,OBJECTID=628,NameExpedition="ENC_OSC1","Net Name"="ENC_OSC1","Net ID"=850,"Is Global"=False,
+E119|-1|1|628||
+O629|.|0x3|U10/OSC1
+ UID=788,OBJECTID=629,NameExpedition="OSC1",Name="OSC1",Number="23","Swap Id"=-1,Type=Passive,"Net Name"="ENC_OSC1",Order=19,"Is No Connect"=False,
+E120|-1|628|629|>
+O630|.|0x3|Y2/2
+ UID=848,OBJECTID=630,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="ENC_OSC1",Order=1,"Is No Connect"=False,
+E121|-1|628|630|>
+O631|.|0x3|C19/2
+ UID=855,OBJECTID=631,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="ENC_OSC1",Order=1,"Is No Connect"=False,
+E122|-1|628|631|>
+O632|x|0x3|CAN_H
+ UID=1101,OBJECTID=632,NameExpedition="CAN_H","Net Name"="CAN_H","Net ID"=1101,"Is Global"=False,
+E123|-1|1|632||
+O633|.|0x3|U5/CANH
+ UID=992,OBJECTID=633,NameExpedition="CANH",Name="CANH",Number="7","Swap Id"=-1,Type=Passive,"Net Name"="CAN_H",Order=5,"Is No Connect"=False,
+E124|-1|632|633|>
+O634|.|0x3|R18/2
+ UID=1053,OBJECTID=634,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="CAN_H",Order=1,"Is No Connect"=False,
+E125|-1|632|634|>
+O635|.|0x3|C10/2
+ UID=1083,OBJECTID=635,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="CAN_H",Order=1,"Is No Connect"=False,
+E126|-1|632|635|>
+O636|.|0x3|C11/2
+ UID=1086,OBJECTID=636,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="CAN_H",Order=1,"Is No Connect"=False,
+E127|-1|632|636|>
+O637|.|0x3|U7/PIN2
+ UID=1093,OBJECTID=637,NameExpedition="PIN2",Name="PIN2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="CAN_H",Order=1,"Is No Connect"=False,
+E128|-1|632|637|>
+O638|.|0x3|U7/PIN1
+ UID=1092,OBJECTID=638,NameExpedition="PIN1",Name="PIN1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="CAN_H",Order=0,"Is No Connect"=False,
+E129|-1|632|638|>
+O639|.|0x3|J5/4
+ UID=1100,OBJECTID=639,NameExpedition="4",Name="4",Number="4","Swap Id"=-1,Type=Passive,"Net Name"="CAN_H",Order=3,"Is No Connect"=False,
+E130|-1|632|639|>
+O640|x|0x3|ENC_OSC2
+ UID=851,OBJECTID=640,NameExpedition="ENC_OSC2","Net Name"="ENC_OSC2","Net ID"=851,"Is Global"=False,
+E131|-1|1|640||
+O641|.|0x3|U10/OSC2
+ UID=787,OBJECTID=641,NameExpedition="OSC2",Name="OSC2",Number="24","Swap Id"=-1,Type=Passive,"Net Name"="ENC_OSC2",Order=18,"Is No Connect"=False,
+E132|-1|640|641|>
+O642|.|0x3|Y2/1
+ UID=847,OBJECTID=642,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="ENC_OSC2",Order=0,"Is No Connect"=False,
+E133|-1|640|642|>
+O643|.|0x3|C20/2
+ UID=858,OBJECTID=643,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="ENC_OSC2",Order=1,"Is No Connect"=False,
+E134|-1|640|643|>
+O644|x|0x3|CAN_L
+ UID=1102,OBJECTID=644,NameExpedition="CAN_L","Net Name"="CAN_L","Net ID"=1102,"Is Global"=False,
+E135|-1|1|644||
+O645|.|0x3|U5/CANL
+ UID=993,OBJECTID=645,NameExpedition="CANL",Name="CANL",Number="6","Swap Id"=-1,Type=Passive,"Net Name"="CAN_L",Order=6,"Is No Connect"=False,
+E136|-1|644|645|>
+O646|.|0x3|R19/2
+ UID=1056,OBJECTID=646,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="CAN_L",Order=1,"Is No Connect"=False,
+E137|-1|644|646|>
+O647|.|0x3|C14/2
+ UID=1077,OBJECTID=647,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="CAN_L",Order=1,"Is No Connect"=False,
+E138|-1|644|647|>
+O648|.|0x3|C15/2
+ UID=1080,OBJECTID=648,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="CAN_L",Order=1,"Is No Connect"=False,
+E139|-1|644|648|>
+O649|.|0x3|U9/PIN2
+ UID=1089,OBJECTID=649,NameExpedition="PIN2",Name="PIN2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="CAN_L",Order=1,"Is No Connect"=False,
+E140|-1|644|649|>
+O650|.|0x3|U9/PIN1
+ UID=1088,OBJECTID=650,NameExpedition="PIN1",Name="PIN1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="CAN_L",Order=0,"Is No Connect"=False,
+E141|-1|644|650|>
+O651|.|0x3|J5/1
+ UID=1097,OBJECTID=651,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="CAN_L",Order=0,"Is No Connect"=False,
+E142|-1|644|651|>
+O652|x|0x3|TPIN-
+ UID=877,OBJECTID=652,NameExpedition="TPIN-","Net Name"="TPIN-","Net ID"=877,"Is Global"=False,
+E143|-1|1|652||
+O653|.|0x3|U10/TPIN-
+ UID=780,OBJECTID=653,NameExpedition="TPIN-",Name="TPIN-",Number="12","Swap Id"=-1,Type=Passive,"Net Name"="TPIN-",Order=11,"Is No Connect"=False,
+E144|-1|652|653|>
+O654|.|0x3|RJ45_1/P6_RD-
+ UID=803,OBJECTID=654,NameExpedition="P6_RD-",Name="P6_RD-",Number="6","Swap Id"=-1,Type=Passive,"Net Name"="TPIN-",Order=5,"Is No Connect"=False,
+E145|-1|652|654|>
+O655|.|0x3|R22/1
+ UID=864,OBJECTID=655,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="TPIN-",Order=0,"Is No Connect"=False,
+E146|-1|652|655|>
+O656|x|0x3|N15102880
+ UID=879,OBJECTID=656,NameExpedition="N15102880","Net Name"="N15102880","Net ID"=879,"Is Global"=False,
+E147|-1|1|656||
+O657|.|0x3|U10/BIAS
+ UID=782,OBJECTID=657,NameExpedition="BIAS",Name="BIAS",Number="14","Swap Id"=-1,Type=Passive,"Net Name"="N15102880",Order=13,"Is No Connect"=False,
+E148|-1|656|657|>
+O658|.|0x3|R26/1
+ UID=898,OBJECTID=658,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15102880",Order=0,"Is No Connect"=False,
+E149|-1|656|658|>
+O659|x|0x3|TPIN+
+ UID=880,OBJECTID=659,NameExpedition="TPIN+","Net Name"="TPIN+","Net ID"=880,"Is Global"=False,
+E150|-1|1|659||
+O660|.|0x3|U10/TPIN+
+ UID=781,OBJECTID=660,NameExpedition="TPIN+",Name="TPIN+",Number="13","Swap Id"=-1,Type=Passive,"Net Name"="TPIN+",Order=12,"Is No Connect"=False,
+E151|-1|659|660|>
+O661|.|0x3|RJ45_1/P3_RD+
+ UID=800,OBJECTID=661,NameExpedition="P3_RD+",Name="P3_RD+",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="TPIN+",Order=2,"Is No Connect"=False,
+E152|-1|659|661|>
+O662|.|0x3|R23/1
+ UID=868,OBJECTID=662,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="TPIN+",Order=0,"Is No Connect"=False,
+E153|-1|659|662|>
+O663|x|0x3|N15115536
+ UID=903,OBJECTID=663,NameExpedition="N15115536","Net Name"="N15115536","Net ID"=903,"Is Global"=False,
+E154|-1|1|663||
+O664|.|0x3|U10/Vcap
+ UID=769,OBJECTID=664,NameExpedition="Vcap",Name="Vcap",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15115536",Order=0,"Is No Connect"=False,
+E155|-1|663|664|>
+O665|.|0x3|C17/1
+ UID=901,OBJECTID=665,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15115536",Order=0,"Is No Connect"=False,
+E156|-1|663|665|>
+O666|x|0x3|CAN_TX
+ UID=912,OBJECTID=666,NameExpedition="CAN_TX","Net Name"="CAN_TX","Net ID"=912,"Is Global"=False,
+E157|-1|1|666||
+O667|.|0x3|U4/PA12/CAN_TX
+ UID=595,OBJECTID=667,NameExpedition="PA12/CAN_TX",Name="PA12/CAN_TX",Number="45","Swap Id"=-1,Type=Passive,"Net Name"="CAN_TX",Order=44,"Is No Connect"=False,
+E158|-1|666|667|>
+O668|.|0x3|U6/CATHODE
+ UID=997,OBJECTID=668,NameExpedition="CATHODE",Name="CATHODE",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="CAN_TX",Order=1,"Is No Connect"=False,
+E159|-1|666|668|>
+O669|x|0x3|CAN_RX
+ UID=913,OBJECTID=669,NameExpedition="CAN_RX","Net Name"="CAN_RX","Net ID"=913,"Is Global"=False,
+E160|-1|1|669||
+O670|.|0x3|U4/PA11/TIM1_CH4/CAN_RX
+ UID=594,OBJECTID=670,NameExpedition="PA11/TIM1_CH4/CAN_RX",Name="PA11/TIM1_CH4/CAN_RX",Number="44","Swap Id"=-1,Type=Passive,"Net Name"="CAN_RX",Order=43,"Is No Connect"=False,
+E161|-1|669|670|>
+O671|.|0x3|R20/1
+ UID=1026,OBJECTID=671,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="CAN_RX",Order=0,"Is No Connect"=False,
+E162|-1|669|671|>
+O672|.|0x3|U8/VO
+ UID=1014,OBJECTID=672,NameExpedition="VO",Name="VO",Number="4","Swap Id"=-1,Type=Passive,"Net Name"="CAN_RX",Order=3,"Is No Connect"=False,
+E163|-1|669|672|>
+O673|x|0x3|V4_2V
+ UID=1182,OBJECTID=673,NameExpedition="V4_2V","Net Name"="V4_2V","Net ID"=1182,"Is Global"=True,
+E164|-1|1|673||
+O674|.|0x3|J9/1
+ UID=1179,OBJECTID=674,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V4_2V",Order=0,"Is No Connect"=False,
+E165|-1|673|674|>
+O675|.|0x3|U11/BAT
+ UID=1134,OBJECTID=675,NameExpedition="BAT",Name="BAT",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="V4_2V",Order=2,"Is No Connect"=False,
+E166|-1|673|675|>
+O676|.|0x3|Q2/S
+ UID=1151,OBJECTID=676,NameExpedition="S",Name="S",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="V4_2V",Order=1,"Is No Connect"=False,
+E167|-1|673|676|>
+O677|.|0x3|C26/1
+ UID=1173,OBJECTID=677,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V4_2V",Order=0,"Is No Connect"=False,
+E168|-1|673|677|>
+O678|x|0x3|N15265904
+ UID=1183,OBJECTID=678,NameExpedition="N15265904","Net Name"="N15265904","Net ID"=1183,"Is Global"=False,
+E169|-1|1|678||
+O679|.|0x3|D6/ANODE
+ UID=1144,OBJECTID=679,NameExpedition="ANODE",Name="ANODE",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15265904",Order=0,"Is No Connect"=False,
+E170|-1|678|679|>
+O680|.|0x3|R29/2
+ UID=1142,OBJECTID=680,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="N15265904",Order=1,"Is No Connect"=False,
+E171|-1|678|680|>
+O681|x|0x3|N15265968
+ UID=1184,OBJECTID=681,NameExpedition="N15265968","Net Name"="N15265968","Net ID"=1184,"Is Global"=False,
+E172|-1|1|681||
+O682|.|0x3|Q2/G
+ UID=1150,OBJECTID=682,NameExpedition="G",Name="G",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15265968",Order=0,"Is No Connect"=False,
+E173|-1|681|682|>
+O683|.|0x3|Q3/G
+ UID=1169,OBJECTID=683,NameExpedition="G",Name="G",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15265968",Order=0,"Is No Connect"=False,
+E174|-1|681|683|>
+O684|.|0x3|R31/2
+ UID=1155,OBJECTID=684,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="N15265968",Order=1,"Is No Connect"=False,
+E175|-1|681|684|>
+O685|.|0x3|R32/1
+ UID=1123,OBJECTID=685,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15265968",Order=0,"Is No Connect"=False,
+E176|-1|681|685|>
+O686|x|0x3|N15265916
+ UID=1187,OBJECTID=686,NameExpedition="N15265916","Net Name"="N15265916","Net ID"=1187,"Is Global"=False,
+E177|-1|1|686||
+O687|.|0x3|D6/CATHODE
+ UID=1145,OBJECTID=687,NameExpedition="CATHODE",Name="CATHODE",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="N15265916",Order=1,"Is No Connect"=False,
+E178|-1|686|687|>
+O688|.|0x3|U11/\\\\C\\H\\R\\G
+ UID=1132,OBJECTID=688,NameExpedition="%%C%H%R%G",Name="\\\\C\\H\\R\\G",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15265916",Order=0,"Is No Connect"=False,
+E179|-1|686|688|>
+O689|x|0x3|N15265972
+ UID=1188,OBJECTID=689,NameExpedition="N15265972","Net Name"="N15265972","Net ID"=1188,"Is Global"=False,
+E180|-1|1|689||
+O690|.|0x3|Q3/D
+ UID=1171,OBJECTID=690,NameExpedition="D",Name="D",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="N15265972",Order=2,"Is No Connect"=False,
+E181|-1|689|690|>
+O691|.|0x3|Q2/D
+ UID=1152,OBJECTID=691,NameExpedition="D",Name="D",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="N15265972",Order=2,"Is No Connect"=False,
+E182|-1|689|691|>
+O692|x|0x3|USART4_RX
+ UID=938,OBJECTID=692,NameExpedition="USART4_RX","Net Name"="USART4_RX","Net ID"=938,"Is Global"=False,
+E183|-1|1|692||
+O693|.|0x3|U4/PC11/UART4_RX
+ UID=602,OBJECTID=693,NameExpedition="PC11/UART4_RX",Name="PC11/UART4_RX",Number="52","Swap Id"=-1,Type=Passive,"Net Name"="USART4_RX",Order=51,"Is No Connect"=False,
+E184|-1|692|693|>
+O694|.|0x3|J7/9
+ UID=1278,OBJECTID=694,NameExpedition="9",Name="9",Number="9","Swap Id"=-1,Type=Passive,"Net Name"="USART4_RX",Order=8,"Is No Connect"=False,
+E185|-1|692|694|>
+O695|x|0x3|485_BP
+ UID=687,OBJECTID=695,NameExpedition="485_BP","Net Name"="485_BP","Net ID"=687,"Is Global"=False,
+E186|-1|1|695||
+O696|.|0x3|U2/B
+ UID=396,OBJECTID=696,NameExpedition="B",Name="B",Number="7","Swap Id"=-1,Type=Passive,"Net Name"="485_BP",Order=6,"Is No Connect"=False,
+E187|-1|695|696|>
+O697|.|0x3|R11/2
+ UID=429,OBJECTID=697,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="485_BP",Order=1,"Is No Connect"=False,
+E188|-1|695|697|>
+O698|.|0x3|TVS1/1
+ UID=399,OBJECTID=698,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="485_BP",Order=0,"Is No Connect"=False,
+E189|-1|695|698|>
+O699|.|0x3|J4/1
+ UID=542,OBJECTID=699,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="485_BP",Order=0,"Is No Connect"=False,
+E190|-1|695|699|>
+O700|.|0x3|TVS2/2
+ UID=981,OBJECTID=700,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="485_BP",Order=1,"Is No Connect"=False,
+E191|-1|695|700|>
+O701|x|0x3|USART4_TX
+ UID=939,OBJECTID=701,NameExpedition="USART4_TX","Net Name"="USART4_TX","Net ID"=939,"Is Global"=False,
+E192|-1|1|701||
+O702|.|0x3|U4/PC10/UART4_TX
+ UID=601,OBJECTID=702,NameExpedition="PC10/UART4_TX",Name="PC10/UART4_TX",Number="51","Swap Id"=-1,Type=Passive,"Net Name"="USART4_TX",Order=50,"Is No Connect"=False,
+E193|-1|701|702|>
+O703|.|0x3|J7/7
+ UID=1276,OBJECTID=703,NameExpedition="7",Name="7",Number="7","Swap Id"=-1,Type=Passive,"Net Name"="USART4_TX",Order=6,"Is No Connect"=False,
+E194|-1|701|703|>
+O704|x|0x3|USART3_RX
+ UID=688,OBJECTID=704,NameExpedition="USART3_RX","Net Name"="USART3_RX","Net ID"=688,"Is Global"=False,
+E195|-1|1|704||
+O705|.|0x3|U4/PB11/USART3_RX
+ UID=580,OBJECTID=705,NameExpedition="PB11/USART3_RX",Name="PB11/USART3_RX",Number="30","Swap Id"=-1,Type=Passive,"Net Name"="USART3_RX",Order=29,"Is No Connect"=False,
+E196|-1|704|705|>
+O706|.|0x3|J6/1
+ UID=1261,OBJECTID=706,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="USART3_RX",Order=0,"Is No Connect"=False,
+E197|-1|704|706|>
+O707|x|0x3|N15265864
+ UID=1190,OBJECTID=707,NameExpedition="N15265864","Net Name"="N15265864","Net ID"=1190,"Is Global"=False,
+E198|-1|1|707||
+O708|.|0x3|R30/1
+ UID=1147,OBJECTID=708,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15265864",Order=0,"Is No Connect"=False,
+E199|-1|707|708|>
+O709|.|0x3|U11/PROG
+ UID=1135,OBJECTID=709,NameExpedition="PROG",Name="PROG",Number="5","Swap Id"=-1,Type=Passive,"Net Name"="N15265864",Order=3,"Is No Connect"=False,
+E200|-1|707|709|>
+O710|x|0x3|485_AP
+ UID=690,OBJECTID=710,NameExpedition="485_AP","Net Name"="485_AP","Net ID"=690,"Is Global"=False,
+E201|-1|1|710||
+O711|.|0x3|U2/A
+ UID=395,OBJECTID=711,NameExpedition="A",Name="A",Number="6","Swap Id"=-1,Type=Passive,"Net Name"="485_AP",Order=5,"Is No Connect"=False,
+E202|-1|710|711|>
+O712|.|0x3|TVS1/2
+ UID=400,OBJECTID=712,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="485_AP",Order=1,"Is No Connect"=False,
+E203|-1|710|712|>
+O713|.|0x3|R7/1
+ UID=412,OBJECTID=713,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="485_AP",Order=0,"Is No Connect"=False,
+E204|-1|710|713|>
+O714|.|0x3|J4/4
+ UID=545,OBJECTID=714,NameExpedition="4",Name="4",Number="4","Swap Id"=-1,Type=Passive,"Net Name"="485_AP",Order=3,"Is No Connect"=False,
+E205|-1|710|714|>
+O715|.|0x3|TVS3/2
+ UID=984,OBJECTID=715,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="485_AP",Order=1,"Is No Connect"=False,
+E206|-1|710|715|>
+O716|x|0x3|USART2_RX
+ UID=691,OBJECTID=716,NameExpedition="USART2_RX","Net Name"="USART2_RX","Net ID"=691,"Is Global"=False,
+E207|-1|1|716||
+O717|.|0x3|R5/2
+ UID=379,OBJECTID=717,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="USART2_RX",Order=1,"Is No Connect"=False,
+E208|-1|716|717|>
+O718|.|0x3|U3/VO
+ UID=1042,OBJECTID=718,NameExpedition="VO",Name="VO",Number="4","Swap Id"=-1,Type=Passive,"Net Name"="USART2_RX",Order=3,"Is No Connect"=False,
+E209|-1|716|718|>
+O719|.|0x3|U4/PA3/TIM2_CH4/USART2_RX
+ UID=567,OBJECTID=719,NameExpedition="PA3/TIM2_CH4/USART2_RX",Name="PA3/TIM2_CH4/USART2_RX",Number="17","Swap Id"=-1,Type=Passive,"Net Name"="USART2_RX",Order=16,"Is No Connect"=False,
+E210|-1|716|719|>
+O720|x|0x3|R485DI
+ UID=694,OBJECTID=720,NameExpedition="R485DI","Net Name"="R485DI","Net ID"=694,"Is Global"=False,
+E211|-1|1|720||
+O721|.|0x3|U2/DI
+ UID=393,OBJECTID=721,NameExpedition="DI",Name="DI",Number="4","Swap Id"=-1,Type=Passive,"Net Name"="R485DI",Order=3,"Is No Connect"=False,
+E212|-1|720|721|>
+O722|.|0x3|R13/2
+ UID=406,OBJECTID=722,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="R485DI",Order=1,"Is No Connect"=False,
+E213|-1|720|722|>
+O723|.|0x3|R1/1
+ UID=402,OBJECTID=723,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="R485DI",Order=0,"Is No Connect"=False,
+E214|-1|720|723|>
+O724|.|0x3|U1/VO
+ UID=1036,OBJECTID=724,NameExpedition="VO",Name="VO",Number="4","Swap Id"=-1,Type=Passive,"Net Name"="R485DI",Order=3,"Is No Connect"=False,
+E215|-1|720|724|>
+O725|x|0x3|N15033311
+ UID=700,OBJECTID=725,NameExpedition="N15033311","Net Name"="N15033311","Net ID"=700,"Is Global"=False,
+E216|-1|1|725||
+O726|.|0x3|U3/CATHODE
+ UID=1040,OBJECTID=726,NameExpedition="CATHODE",Name="CATHODE",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="N15033311",Order=1,"Is No Connect"=False,
+E217|-1|725|726|>
+O727|.|0x3|U2/RO
+ UID=390,OBJECTID=727,NameExpedition="RO",Name="RO",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15033311",Order=0,"Is No Connect"=False,
+E218|-1|725|727|>
+O728|x|0x3|GND
+ UID=701,OBJECTID=728,NameExpedition="GND","Net Name"="GND","Net ID"=701,"Is Global"=True,
+E219|-1|1|728||
+O729|.|0x3|U4/VSS3
+ UID=597,OBJECTID=729,NameExpedition="VSS3",Name="VSS3",Number="47","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=46,"Is No Connect"=False,
+E220|-1|728|729|>
+O730|.|0x3|U4/VSSA
+ UID=562,OBJECTID=730,NameExpedition="VSSA",Name="VSSA",Number="12","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=11,"Is No Connect"=False,
+E221|-1|728|730|>
+O731|.|0x3|U4/VSS1
+ UID=568,OBJECTID=731,NameExpedition="VSS1",Name="VSS1",Number="18","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=17,"Is No Connect"=False,
+E222|-1|728|731|>
+O732|.|0x3|U4/VSS2
+ UID=581,OBJECTID=732,NameExpedition="VSS2",Name="VSS2",Number="31","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=30,"Is No Connect"=False,
+E223|-1|728|732|>
+O733|.|0x3|C4/2
+ UID=641,OBJECTID=733,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E224|-1|728|733|>
+O734|.|0x3|C3/2
+ UID=626,OBJECTID=734,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E225|-1|728|734|>
+O735|.|0x3|C1/2
+ UID=617,OBJECTID=735,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E226|-1|728|735|>
+O736|.|0x3|C6/2
+ UID=620,OBJECTID=736,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E227|-1|728|736|>
+O737|.|0x3|C2/2
+ UID=623,OBJECTID=737,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E228|-1|728|737|>
+O738|.|0x3|U4/VSS4
+ UID=613,OBJECTID=738,NameExpedition="VSS4",Name="VSS4",Number="63","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=62,"Is No Connect"=False,
+E229|-1|728|738|>
+O739|.|0x3|C5/2
+ UID=638,OBJECTID=739,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E230|-1|728|739|>
+O740|.|0x3|R8/2
+ UID=629,OBJECTID=740,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E231|-1|728|740|>
+O741|.|0x3|R14/1
+ UID=634,OBJECTID=741,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=0,"Is No Connect"=False,
+E232|-1|728|741|>
+O742|.|0x3|J2/4
+ UID=755,OBJECTID=742,NameExpedition="4",Name="4",Number="4","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=3,"Is No Connect"=False,
+E233|-1|728|742|>
+O743|.|0x3|J3/4
+ UID=767,OBJECTID=743,NameExpedition="4",Name="4",Number="4","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=3,"Is No Connect"=False,
+E234|-1|728|743|>
+O744|.|0x3|U10/Vss
+ UID=770,OBJECTID=744,NameExpedition="Vss",Name="Vss",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E235|-1|728|744|>
+O745|.|0x3|U10/Vssrx
+ UID=779,OBJECTID=745,NameExpedition="Vssrx",Name="Vssrx",Number="11","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=10,"Is No Connect"=False,
+E236|-1|728|745|>
+O746|.|0x3|U10/Vsspll
+ UID=790,OBJECTID=746,NameExpedition="Vsspll",Name="Vsspll",Number="21","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=21,"Is No Connect"=False,
+E237|-1|728|746|>
+O747|.|0x3|U10/Vsstx
+ UID=793,OBJECTID=747,NameExpedition="Vsstx",Name="Vsstx",Number="18","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=24,"Is No Connect"=False,
+E238|-1|728|747|>
+O748|.|0x3|RJ45_1/LED_G-
+ UID=807,OBJECTID=748,NameExpedition="LED_G-",Name="LED_G-",Number="10","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=9,"Is No Connect"=False,
+E239|-1|728|748|>
+O749|.|0x3|RJ45_1/GND
+ UID=805,OBJECTID=749,NameExpedition="GND",Name="GND",Number="8","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=7,"Is No Connect"=False,
+E240|-1|728|749|>
+O750|.|0x3|C19/1
+ UID=854,OBJECTID=750,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=0,"Is No Connect"=False,
+E241|-1|728|750|>
+O751|.|0x3|C20/1
+ UID=857,OBJECTID=751,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=0,"Is No Connect"=False,
+E242|-1|728|751|>
+O752|.|0x3|R26/2
+ UID=899,OBJECTID=752,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E243|-1|728|752|>
+O753|.|0x3|U10/Vssosc
+ UID=789,OBJECTID=753,NameExpedition="Vssosc",Name="Vssosc",Number="22","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=20,"Is No Connect"=False,
+E244|-1|728|753|>
+O754|.|0x3|C17/2
+ UID=902,OBJECTID=754,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E245|-1|728|754|>
+O755|.|0x3|D1/CATHODE
+ UID=942,OBJECTID=755,NameExpedition="CATHODE",Name="CATHODE",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E246|-1|728|755|>
+O756|.|0x3|D2/CATHODE
+ UID=945,OBJECTID=756,NameExpedition="CATHODE",Name="CATHODE",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E247|-1|728|756|>
+O757|.|0x3|D3/CATHODE
+ UID=948,OBJECTID=757,NameExpedition="CATHODE",Name="CATHODE",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E248|-1|728|757|>
+O758|.|0x3|D4/CATHODE
+ UID=969,OBJECTID=758,NameExpedition="CATHODE",Name="CATHODE",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E249|-1|728|758|>
+O759|.|0x3|U8/GND
+ UID=1013,OBJECTID=759,NameExpedition="GND",Name="GND",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=2,"Is No Connect"=False,
+E250|-1|728|759|>
+O760|.|0x3|C13/2
+ UID=1031,OBJECTID=760,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E251|-1|728|760|>
+O761|.|0x3|U3/GND
+ UID=1041,OBJECTID=761,NameExpedition="GND",Name="GND",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=2,"Is No Connect"=False,
+E252|-1|728|761|>
+O762|.|0x3|C24/2
+ UID=1114,OBJECTID=762,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E253|-1|728|762|>
+O763|.|0x3|C21/2
+ UID=1105,OBJECTID=763,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E254|-1|728|763|>
+O764|.|0x3|C22/2
+ UID=1108,OBJECTID=764,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E255|-1|728|764|>
+O765|.|0x3|C23/2
+ UID=1111,OBJECTID=765,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E256|-1|728|765|>
+O766|.|0x3|C25/2
+ UID=1120,OBJECTID=766,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E257|-1|728|766|>
+O767|.|0x3|J6/6
+ UID=1266,OBJECTID=767,NameExpedition="6",Name="6",Number="6","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=5,"Is No Connect"=False,
+E258|-1|728|767|>
+O768|.|0x3|J6/5
+ UID=1265,OBJECTID=768,NameExpedition="5",Name="5",Number="5","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=4,"Is No Connect"=False,
+E259|-1|728|768|>
+O769|.|0x3|RJ45_1/LED_Y-
+ UID=809,OBJECTID=769,NameExpedition="LED_Y-",Name="LED_Y-",Number="12","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=11,"Is No Connect"=False,
+E260|-1|728|769|>
+O770|.|0x3|C18/2
+ UID=892,OBJECTID=770,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E261|-1|728|770|>
+O771|.|0x3|C37/2
+ UID=1338,OBJECTID=771,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E262|-1|728|771|>
+O772|.|0x3|U12/VSS
+ UID=1164,OBJECTID=772,NameExpedition="VSS",Name="VSS",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E263|-1|728|772|>
+O773|.|0x3|C28/2
+ UID=1127,OBJECTID=773,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E264|-1|728|773|>
+O774|.|0x3|U11/GND
+ UID=1133,OBJECTID=774,NameExpedition="GND",Name="GND",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E265|-1|728|774|>
+O775|.|0x3|R30/2
+ UID=1148,OBJECTID=775,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E266|-1|728|775|>
+O776|.|0x3|J9/2
+ UID=1180,OBJECTID=776,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E267|-1|728|776|>
+O777|.|0x3|C27/2
+ UID=1158,OBJECTID=777,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E268|-1|728|777|>
+O778|.|0x3|C26/2
+ UID=1174,OBJECTID=778,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E269|-1|728|778|>
+O779|.|0x3|R31/1
+ UID=1154,OBJECTID=779,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=0,"Is No Connect"=False,
+E270|-1|728|779|>
+O780|.|0x3|R34/2
+ UID=1203,OBJECTID=780,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E271|-1|728|780|>
+O781|.|0x3|D7/A
+ UID=1217,OBJECTID=781,NameExpedition="A",Name="A",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=0,"Is No Connect"=False,
+E272|-1|728|781|>
+O782|.|0x3|C31/2
+ UID=1223,OBJECTID=782,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E273|-1|728|782|>
+O783|.|0x3|C32/2
+ UID=1230,OBJECTID=783,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E274|-1|728|783|>
+O784|.|0x3|U13/ON/OFF
+ UID=1199,OBJECTID=784,NameExpedition="ON/OFF",Name="ON/OFF",Number="5","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=3,"Is No Connect"=False,
+E275|-1|728|784|>
+O785|.|0x3|C29/2
+ UID=1233,OBJECTID=785,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E276|-1|728|785|>
+O786|.|0x3|J8/2
+ UID=1237,OBJECTID=786,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=1,"Is No Connect"=False,
+E277|-1|728|786|>
+O787|.|0x3|U13/GND
+ UID=1198,OBJECTID=787,NameExpedition="GND",Name="GND",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="GND",Order=2,"Is No Connect"=False,
+E278|-1|728|787|>
+O788|x|0x3|V3_3
+ UID=702,OBJECTID=788,NameExpedition="V3_3","Net Name"="V3_3","Net ID"=702,"Is Global"=True,
+E279|-1|1|788||
+O789|.|0x3|R5/1
+ UID=378,OBJECTID=789,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E280|-1|788|789|>
+O790|.|0x3|R2/1
+ UID=425,OBJECTID=790,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E281|-1|788|790|>
+O791|.|0x3|U4/VBAT
+ UID=551,OBJECTID=791,NameExpedition="VBAT",Name="VBAT",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E282|-1|788|791|>
+O792|.|0x3|U4/VDD1
+ UID=569,OBJECTID=792,NameExpedition="VDD1",Name="VDD1",Number="19","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=18,"Is No Connect"=False,
+E283|-1|788|792|>
+O793|.|0x3|U4/VDD2
+ UID=582,OBJECTID=793,NameExpedition="VDD2",Name="VDD2",Number="32","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=31,"Is No Connect"=False,
+E284|-1|788|793|>
+O794|.|0x3|C3/1
+ UID=625,OBJECTID=794,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E285|-1|788|794|>
+O795|.|0x3|C1/1
+ UID=616,OBJECTID=795,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E286|-1|788|795|>
+O796|.|0x3|C6/1
+ UID=619,OBJECTID=796,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E287|-1|788|796|>
+O797|.|0x3|C2/1
+ UID=622,OBJECTID=797,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E288|-1|788|797|>
+O798|.|0x3|U4/VDD3
+ UID=598,OBJECTID=798,NameExpedition="VDD3",Name="VDD3",Number="48","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=47,"Is No Connect"=False,
+E289|-1|788|798|>
+O799|.|0x3|U4/VDD4
+ UID=614,OBJECTID=799,NameExpedition="VDD4",Name="VDD4",Number="64","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=63,"Is No Connect"=False,
+E290|-1|788|799|>
+O800|.|0x3|U4/VDDA
+ UID=563,OBJECTID=800,NameExpedition="VDDA",Name="VDDA",Number="13","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=12,"Is No Connect"=False,
+E291|-1|788|800|>
+O801|.|0x3|J1/2
+ UID=758,OBJECTID=801,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=1,"Is No Connect"=False,
+E292|-1|788|801|>
+O802|.|0x3|J2/1
+ UID=752,OBJECTID=802,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E293|-1|788|802|>
+O803|.|0x3|J3/1
+ UID=764,OBJECTID=803,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E294|-1|788|803|>
+O804|.|0x3|U10/Vdd
+ UID=783,OBJECTID=804,NameExpedition="Vdd",Name="Vdd",Number="28","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=14,"Is No Connect"=False,
+E295|-1|788|804|>
+O805|.|0x3|U10/Vddosc
+ UID=786,OBJECTID=805,NameExpedition="Vddosc",Name="Vddosc",Number="25","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=17,"Is No Connect"=False,
+E296|-1|788|805|>
+O806|.|0x3|U10/Vddpll
+ UID=791,OBJECTID=806,NameExpedition="Vddpll",Name="Vddpll",Number="20","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=22,"Is No Connect"=False,
+E297|-1|788|806|>
+O807|.|0x3|U10/Vddrx
+ UID=792,OBJECTID=807,NameExpedition="Vddrx",Name="Vddrx",Number="19","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=23,"Is No Connect"=False,
+E298|-1|788|807|>
+O808|.|0x3|U10/Vddtx
+ UID=796,OBJECTID=808,NameExpedition="Vddtx",Name="Vddtx",Number="15","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=27,"Is No Connect"=False,
+E299|-1|788|808|>
+O809|.|0x3|R17/1
+ UID=1006,OBJECTID=809,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E300|-1|788|809|>
+O810|.|0x3|U8/VCC
+ UID=1015,OBJECTID=810,NameExpedition="VCC",Name="VCC",Number="5","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=4,"Is No Connect"=False,
+E301|-1|788|810|>
+O811|.|0x3|R20/2
+ UID=1027,OBJECTID=811,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=1,"Is No Connect"=False,
+E302|-1|788|811|>
+O812|.|0x3|C13/1
+ UID=1030,OBJECTID=812,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E303|-1|788|812|>
+O813|.|0x3|U3/VCC
+ UID=1043,OBJECTID=813,NameExpedition="VCC",Name="VCC",Number="5","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=4,"Is No Connect"=False,
+E304|-1|788|813|>
+O814|.|0x3|C24/1
+ UID=1113,OBJECTID=814,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E305|-1|788|814|>
+O815|.|0x3|C21/1
+ UID=1104,OBJECTID=815,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E306|-1|788|815|>
+O816|.|0x3|C22/1
+ UID=1107,OBJECTID=816,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E307|-1|788|816|>
+O817|.|0x3|C23/1
+ UID=1110,OBJECTID=817,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E308|-1|788|817|>
+O818|.|0x3|C25/1
+ UID=1119,OBJECTID=818,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E309|-1|788|818|>
+O819|.|0x3|J6/8
+ UID=1268,OBJECTID=819,NameExpedition="8",Name="8",Number="8","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=7,"Is No Connect"=False,
+E310|-1|788|819|>
+O820|.|0x3|J6/7
+ UID=1267,OBJECTID=820,NameExpedition="7",Name="7",Number="7","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=6,"Is No Connect"=False,
+E311|-1|788|820|>
+O821|.|0x3|FB1/1
+ UID=894,OBJECTID=821,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E312|-1|788|821|>
+O822|.|0x3|C37/1
+ UID=1337,OBJECTID=822,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E313|-1|788|822|>
+O823|.|0x3|U12/VOUT
+ UID=1167,OBJECTID=823,NameExpedition="VOUT",Name="VOUT",Number="5","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=4,"Is No Connect"=False,
+E314|-1|788|823|>
+O824|.|0x3|C27/1
+ UID=1157,OBJECTID=824,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V3_3",Order=0,"Is No Connect"=False,
+E315|-1|788|824|>
+O825|x|0x3|OSC_I
+ UID=703,OBJECTID=825,NameExpedition="OSC_I","Net Name"="OSC_I","Net ID"=703,"Is Global"=False,
+E316|-1|1|825||
+O826|.|0x3|C4/1
+ UID=640,OBJECTID=826,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="OSC_I",Order=0,"Is No Connect"=False,
+E317|-1|825|826|>
+O827|.|0x3|U4/OSC_IN
+ UID=555,OBJECTID=827,NameExpedition="OSC_IN",Name="OSC_IN",Number="5","Swap Id"=-1,Type=Passive,"Net Name"="OSC_I",Order=4,"Is No Connect"=False,
+E318|-1|825|827|>
+O828|.|0x3|Y1/2
+ UID=632,OBJECTID=828,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="OSC_I",Order=1,"Is No Connect"=False,
+E319|-1|825|828|>
+O829|x|0x3|485_G
+ UID=705,OBJECTID=829,NameExpedition="485_G","Net Name"="485_G","Net ID"=705,"Is Global"=True,
+E320|-1|1|829||
+O830|.|0x3|U9/PIN3
+ UID=1090,OBJECTID=830,NameExpedition="PIN3",Name="PIN3",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=2,"Is No Connect"=False,
+E321|-1|829|830|>
+O831|.|0x3|C7/1
+ UID=381,OBJECTID=831,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=0,"Is No Connect"=False,
+E322|-1|829|831|>
+O832|.|0x3|U6/GND
+ UID=998,OBJECTID=832,NameExpedition="GND",Name="GND",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=2,"Is No Connect"=False,
+E323|-1|829|832|>
+O833|.|0x3|U1/GND
+ UID=1035,OBJECTID=833,NameExpedition="GND",Name="GND",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=2,"Is No Connect"=False,
+E324|-1|829|833|>
+O834|.|0x3|U2/GND
+ UID=394,OBJECTID=834,NameExpedition="GND",Name="GND",Number="5","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=4,"Is No Connect"=False,
+E325|-1|829|834|>
+O835|.|0x3|R12/2
+ UID=385,OBJECTID=835,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=1,"Is No Connect"=False,
+E326|-1|829|835|>
+O836|.|0x3|TVS2/1
+ UID=980,OBJECTID=836,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=0,"Is No Connect"=False,
+E327|-1|829|836|>
+O837|.|0x3|R11/1
+ UID=428,OBJECTID=837,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=0,"Is No Connect"=False,
+E328|-1|829|837|>
+O838|.|0x3|TVS3/1
+ UID=983,OBJECTID=838,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=0,"Is No Connect"=False,
+E329|-1|829|838|>
+O839|.|0x3|C8/1
+ UID=1017,OBJECTID=839,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=0,"Is No Connect"=False,
+E330|-1|829|839|>
+O840|.|0x3|U5/GND
+ UID=988,OBJECTID=840,NameExpedition="GND",Name="GND",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=1,"Is No Connect"=False,
+E331|-1|829|840|>
+O841|.|0x3|R16/2
+ UID=1047,OBJECTID=841,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=1,"Is No Connect"=False,
+E332|-1|829|841|>
+O842|.|0x3|C12/2
+ UID=1074,OBJECTID=842,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=1,"Is No Connect"=False,
+E333|-1|829|842|>
+O843|.|0x3|C15/1
+ UID=1079,OBJECTID=843,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=0,"Is No Connect"=False,
+E334|-1|829|843|>
+O844|.|0x3|C11/1
+ UID=1085,OBJECTID=844,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=0,"Is No Connect"=False,
+E335|-1|829|844|>
+O845|.|0x3|U7/PIN3
+ UID=1094,OBJECTID=845,NameExpedition="PIN3",Name="PIN3",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=2,"Is No Connect"=False,
+E336|-1|829|845|>
+O846|.|0x3|C10/1
+ UID=1082,OBJECTID=846,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=0,"Is No Connect"=False,
+E337|-1|829|846|>
+O847|.|0x3|C14/1
+ UID=1076,OBJECTID=847,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=0,"Is No Connect"=False,
+E338|-1|829|847|>
+O848|.|0x3|C9/2
+ UID=1117,OBJECTID=848,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=1,"Is No Connect"=False,
+E339|-1|829|848|>
+O849|.|0x3|C36/2
+ UID=1335,OBJECTID=849,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=1,"Is No Connect"=False,
+E340|-1|829|849|>
+O850|.|0x3|J8/3
+ UID=1238,OBJECTID=850,NameExpedition="3",Name="3",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=2,"Is No Connect"=False,
+E341|-1|829|850|>
+O851|.|0x3|C34/1
+ UID=1255,OBJECTID=851,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=0,"Is No Connect"=False,
+E342|-1|829|851|>
+O852|.|0x3|U14/GND
+ UID=1249,OBJECTID=852,NameExpedition="GND",Name="GND",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=2,"Is No Connect"=False,
+E343|-1|829|852|>
+O853|.|0x3|C35/1
+ UID=1252,OBJECTID=853,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=0,"Is No Connect"=False,
+E344|-1|829|853|>
+O854|.|0x3|C33/2
+ UID=1259,OBJECTID=854,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="485_G",Order=1,"Is No Connect"=False,
+E345|-1|829|854|>
+O855|x|0x3|N15132262
+ UID=960,OBJECTID=855,NameExpedition="N15132262","Net Name"="N15132262","Net ID"=960,"Is Global"=False,
+E346|-1|1|855||
+O856|.|0x3|D3/ANODE
+ UID=947,OBJECTID=856,NameExpedition="ANODE",Name="ANODE",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15132262",Order=0,"Is No Connect"=False,
+E347|-1|855|856|>
+O857|.|0x3|R9/1
+ UID=950,OBJECTID=857,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15132262",Order=0,"Is No Connect"=False,
+E348|-1|855|857|>
+O858|x|0x3|N15132178
+ UID=961,OBJECTID=858,NameExpedition="N15132178","Net Name"="N15132178","Net ID"=961,"Is Global"=False,
+E349|-1|1|858||
+O859|.|0x3|D1/ANODE
+ UID=941,OBJECTID=859,NameExpedition="ANODE",Name="ANODE",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15132178",Order=0,"Is No Connect"=False,
+E350|-1|858|859|>
+O860|.|0x3|R3/1
+ UID=956,OBJECTID=860,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15132178",Order=0,"Is No Connect"=False,
+E351|-1|858|860|>
+O861|x|0x3|MCU_RXD
+ UID=710,OBJECTID=861,NameExpedition="MCU_RXD","Net Name"="MCU_RXD","Net ID"=710,"Is Global"=False,
+E352|-1|1|861||
+O862|.|0x3|U4/PA10/USART1_RX
+ UID=593,OBJECTID=862,NameExpedition="PA10/USART1_RX",Name="PA10/USART1_RX",Number="43","Swap Id"=-1,Type=Passive,"Net Name"="MCU_RXD",Order=42,"Is No Connect"=False,
+E353|-1|861|862|>
+O863|.|0x3|J2/2
+ UID=753,OBJECTID=863,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="MCU_RXD",Order=1,"Is No Connect"=False,
+E354|-1|861|863|>
+O864|x|0x3|N15132258
+ UID=962,OBJECTID=864,NameExpedition="N15132258","Net Name"="N15132258","Net ID"=962,"Is Global"=False,
+E355|-1|1|864||
+O865|.|0x3|D2/ANODE
+ UID=944,OBJECTID=865,NameExpedition="ANODE",Name="ANODE",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15132258",Order=0,"Is No Connect"=False,
+E356|-1|864|865|>
+O866|.|0x3|R4/1
+ UID=953,OBJECTID=866,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15132258",Order=0,"Is No Connect"=False,
+E357|-1|864|866|>
+O867|x|0x3|N15033361
+ UID=711,OBJECTID=867,NameExpedition="N15033361","Net Name"="N15033361","Net ID"=711,"Is Global"=False,
+E358|-1|1|867||
+O868|.|0x3|R6/1
+ UID=387,OBJECTID=868,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15033361",Order=0,"Is No Connect"=False,
+E359|-1|867|868|>
+O869|.|0x3|U3/ANODE
+ UID=1039,OBJECTID=869,NameExpedition="ANODE",Name="ANODE",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15033361",Order=0,"Is No Connect"=False,
+E360|-1|867|869|>
+O870|x|0x3|V485
+ UID=712,OBJECTID=870,NameExpedition="V485","Net Name"="V485","Net ID"=712,"Is Global"=True,
+E361|-1|1|870||
+O871|.|0x3|R7/2
+ UID=413,OBJECTID=871,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="V485",Order=1,"Is No Connect"=False,
+E362|-1|870|871|>
+O872|.|0x3|U2/VCC
+ UID=397,OBJECTID=872,NameExpedition="VCC",Name="VCC",Number="8","Swap Id"=-1,Type=Passive,"Net Name"="V485",Order=7,"Is No Connect"=False,
+E363|-1|870|872|>
+O873|.|0x3|C7/2
+ UID=382,OBJECTID=873,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="V485",Order=1,"Is No Connect"=False,
+E364|-1|870|873|>
+O874|.|0x3|Q1/E
+ UID=409,OBJECTID=874,NameExpedition="E",Name="E",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="V485",Order=1,"Is No Connect"=False,
+E365|-1|870|874|>
+O875|.|0x3|R6/2
+ UID=388,OBJECTID=875,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="V485",Order=1,"Is No Connect"=False,
+E366|-1|870|875|>
+O876|.|0x3|U6/VCC
+ UID=1000,OBJECTID=876,NameExpedition="VCC",Name="VCC",Number="5","Swap Id"=-1,Type=Passive,"Net Name"="V485",Order=4,"Is No Connect"=False,
+E367|-1|870|876|>
+O877|.|0x3|R15/2
+ UID=1003,OBJECTID=877,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="V485",Order=1,"Is No Connect"=False,
+E368|-1|870|877|>
+O878|.|0x3|C8/2
+ UID=1018,OBJECTID=878,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="V485",Order=1,"Is No Connect"=False,
+E369|-1|870|878|>
+O879|.|0x3|U5/VCC
+ UID=989,OBJECTID=879,NameExpedition="VCC",Name="VCC",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="V485",Order=2,"Is No Connect"=False,
+E370|-1|870|879|>
+O880|.|0x3|U1/VCC
+ UID=1037,OBJECTID=880,NameExpedition="VCC",Name="VCC",Number="5","Swap Id"=-1,Type=Passive,"Net Name"="V485",Order=4,"Is No Connect"=False,
+E371|-1|870|880|>
+O881|.|0x3|C9/1
+ UID=1116,OBJECTID=881,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V485",Order=0,"Is No Connect"=False,
+E372|-1|870|881|>
+O882|.|0x3|C36/1
+ UID=1334,OBJECTID=882,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V485",Order=0,"Is No Connect"=False,
+E373|-1|870|882|>
+O883|.|0x3|R1/2
+ UID=403,OBJECTID=883,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="V485",Order=1,"Is No Connect"=False,
+E374|-1|870|883|>
+O884|.|0x3|R21/2
+ UID=1023,OBJECTID=884,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="V485",Order=1,"Is No Connect"=False,
+E375|-1|870|884|>
+O885|.|0x3|U14/Vout
+ UID=1248,OBJECTID=885,NameExpedition="Vout",Name="Vout",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V485",Order=1,"Is No Connect"=False,
+E376|-1|870|885|>
+O886|.|0x3|C35/2
+ UID=1253,OBJECTID=886,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="V485",Order=1,"Is No Connect"=False,
+E377|-1|870|886|>
+O887|x|0x3|LED_S
+ UID=964,OBJECTID=887,NameExpedition="LED_S","Net Name"="LED_S","Net ID"=964,"Is Global"=False,
+E378|-1|1|887||
+O888|.|0x3|R9/2
+ UID=951,OBJECTID=888,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="LED_S",Order=1,"Is No Connect"=False,
+E379|-1|887|888|>
+O889|.|0x3|U4/PB7/TIM4_CH2
+ UID=609,OBJECTID=889,NameExpedition="PB7/TIM4_CH2",Name="PB7/TIM4_CH2",Number="59","Swap Id"=-1,Type=Passive,"Net Name"="LED_S",Order=58,"Is No Connect"=False,
+E380|-1|887|889|>
+O890|x|0x3|BOOT0
+ UID=713,OBJECTID=890,NameExpedition="BOOT0","Net Name"="BOOT0","Net ID"=713,"Is Global"=False,
+E381|-1|1|890||
+O891|.|0x3|R8/1
+ UID=628,OBJECTID=891,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="BOOT0",Order=0,"Is No Connect"=False,
+E382|-1|890|891|>
+O892|.|0x3|U4/BOOT0
+ UID=610,OBJECTID=892,NameExpedition="BOOT0",Name="BOOT0",Number="60","Swap Id"=-1,Type=Passive,"Net Name"="BOOT0",Order=59,"Is No Connect"=False,
+E383|-1|890|892|>
+O893|.|0x3|J1/1
+ UID=757,OBJECTID=893,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="BOOT0",Order=0,"Is No Connect"=False,
+E384|-1|890|893|>
+O894|x|0x3|N15272132
+ UID=1215,OBJECTID=894,NameExpedition="N15272132","Net Name"="N15272132","Net ID"=1215,"Is Global"=False,
+E385|-1|1|894||
+O895|.|0x3|U13/Vout
+ UID=1197,OBJECTID=895,NameExpedition="Vout",Name="Vout",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="N15272132",Order=1,"Is No Connect"=False,
+E386|-1|894|895|>
+O896|.|0x3|D7/K
+ UID=1218,OBJECTID=896,NameExpedition="K",Name="K",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="N15272132",Order=1,"Is No Connect"=False,
+E387|-1|894|896|>
+O897|.|0x3|L1/1
+ UID=1213,OBJECTID=897,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15272132",Order=0,"Is No Connect"=False,
+E388|-1|894|897|>
+O898|x|0x3|LED_P
+ UID=965,OBJECTID=898,NameExpedition="LED_P","Net Name"="LED_P","Net ID"=965,"Is Global"=False,
+E389|-1|1|898||
+O899|.|0x3|R3/2
+ UID=957,OBJECTID=899,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="LED_P",Order=1,"Is No Connect"=False,
+E390|-1|898|899|>
+O900|.|0x3|U4/PB9/CAN_TX
+ UID=612,OBJECTID=900,NameExpedition="PB9/CAN_TX",Name="PB9/CAN_TX",Number="62","Swap Id"=-1,Type=Passive,"Net Name"="LED_P",Order=61,"Is No Connect"=False,
+E391|-1|898|900|>
+O901|x|0x3|LED_W
+ UID=966,OBJECTID=901,NameExpedition="LED_W","Net Name"="LED_W","Net ID"=966,"Is Global"=False,
+E392|-1|1|901||
+O902|.|0x3|R4/2
+ UID=954,OBJECTID=902,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="LED_W",Order=1,"Is No Connect"=False,
+E393|-1|901|902|>
+O903|.|0x3|U4/PB8/CAN_RX
+ UID=611,OBJECTID=903,NameExpedition="PB8/CAN_RX",Name="PB8/CAN_RX",Number="61","Swap Id"=-1,Type=Passive,"Net Name"="LED_W",Order=60,"Is No Connect"=False,
+E394|-1|901|903|>
+O904|x|0x3|N15033215
+ UID=716,OBJECTID=904,NameExpedition="N15033215","Net Name"="N15033215","Net ID"=716,"Is Global"=False,
+E395|-1|1|904||
+O905|.|0x3|U1/ANODE
+ UID=1033,OBJECTID=905,NameExpedition="ANODE",Name="ANODE",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15033215",Order=0,"Is No Connect"=False,
+E396|-1|904|905|>
+O906|.|0x3|R2/2
+ UID=426,OBJECTID=906,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="N15033215",Order=1,"Is No Connect"=False,
+E397|-1|904|906|>
+O907|x|0x3|RX0_TX1
+ UID=720,OBJECTID=907,NameExpedition="RX0_TX1","Net Name"="RX0_TX1","Net ID"=720,"Is Global"=False,
+E398|-1|1|907||
+O908|.|0x3|U2/DE
+ UID=392,OBJECTID=908,NameExpedition="DE",Name="DE",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="RX0_TX1",Order=2,"Is No Connect"=False,
+E399|-1|907|908|>
+O909|.|0x3|U2/\\\\R\\E
+ UID=391,OBJECTID=909,NameExpedition="%%R%E",Name="\\\\R\\E",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="RX0_TX1",Order=1,"Is No Connect"=False,
+E400|-1|907|909|>
+O910|.|0x3|Q1/C
+ UID=410,OBJECTID=910,NameExpedition="C",Name="C",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="RX0_TX1",Order=2,"Is No Connect"=False,
+E401|-1|907|910|>
+O911|.|0x3|R12/1
+ UID=384,OBJECTID=911,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="RX0_TX1",Order=0,"Is No Connect"=False,
+E402|-1|907|911|>
+O912|x|0x3|N15133450
+ UID=973,OBJECTID=912,NameExpedition="N15133450","Net Name"="N15133450","Net ID"=973,"Is Global"=False,
+E403|-1|1|912||
+O913|.|0x3|D4/ANODE
+ UID=968,OBJECTID=913,NameExpedition="ANODE",Name="ANODE",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15133450",Order=0,"Is No Connect"=False,
+E404|-1|912|913|>
+O914|.|0x3|R10/1
+ UID=971,OBJECTID=914,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15133450",Order=0,"Is No Connect"=False,
+E405|-1|912|914|>
+O915|x|0x3|N15033417
+ UID=722,OBJECTID=915,NameExpedition="N15033417","Net Name"="N15033417","Net ID"=722,"Is Global"=False,
+E406|-1|1|915||
+O916|.|0x3|R13/1
+ UID=405,OBJECTID=916,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15033417",Order=0,"Is No Connect"=False,
+E407|-1|915|916|>
+O917|.|0x3|Q1/B
+ UID=408,OBJECTID=917,NameExpedition="B",Name="B",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="N15033417",Order=0,"Is No Connect"=False,
+E408|-1|915|917|>
+O918|x|0x3|LED_T
+ UID=974,OBJECTID=918,NameExpedition="LED_T","Net Name"="LED_T","Net ID"=974,"Is Global"=False,
+E409|-1|1|918||
+O919|.|0x3|R10/2
+ UID=972,OBJECTID=919,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="LED_T",Order=1,"Is No Connect"=False,
+E410|-1|918|919|>
+O920|.|0x3|U4/PB6/TIM4_CH1
+ UID=608,OBJECTID=920,NameExpedition="PB6/TIM4_CH1",Name="PB6/TIM4_CH1",Number="58","Swap Id"=-1,Type=Passive,"Net Name"="LED_T",Order=57,"Is No Connect"=False,
+E411|-1|918|920|>
+O921|x|0x3|V4V
+ UID=1226,OBJECTID=921,NameExpedition="V4V","Net Name"="V4V","Net ID"=1226,"Is Global"=True,
+E412|-1|1|921||
+O922|.|0x3|J7/2
+ UID=1271,OBJECTID=922,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="V4V",Order=1,"Is No Connect"=False,
+E413|-1|921|922|>
+O923|.|0x3|J7/1
+ UID=1270,OBJECTID=923,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V4V",Order=0,"Is No Connect"=False,
+E414|-1|921|923|>
+O924|.|0x3|C28/1
+ UID=1126,OBJECTID=924,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V4V",Order=0,"Is No Connect"=False,
+E415|-1|921|924|>
+O925|.|0x3|U12/CE
+ UID=1165,OBJECTID=925,NameExpedition="CE",Name="CE",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="V4V",Order=2,"Is No Connect"=False,
+E416|-1|921|925|>
+O926|.|0x3|U12/VIN
+ UID=1163,OBJECTID=926,NameExpedition="VIN",Name="VIN",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V4V",Order=0,"Is No Connect"=False,
+E417|-1|921|926|>
+O927|.|0x3|U11/V+
+ UID=1136,OBJECTID=927,NameExpedition="V+",Name="V+",Number="4","Swap Id"=-1,Type=Passive,"Net Name"="V4V",Order=4,"Is No Connect"=False,
+E418|-1|921|927|>
+O928|.|0x3|R29/1
+ UID=1141,OBJECTID=928,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V4V",Order=0,"Is No Connect"=False,
+E419|-1|921|928|>
+O929|.|0x3|Q3/S
+ UID=1170,OBJECTID=929,NameExpedition="S",Name="S",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="V4V",Order=1,"Is No Connect"=False,
+E420|-1|921|929|>
+O930|.|0x3|R33/2
+ UID=1207,OBJECTID=930,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="V4V",Order=1,"Is No Connect"=False,
+E421|-1|921|930|>
+O931|.|0x3|C30/2
+ UID=1210,OBJECTID=931,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="V4V",Order=1,"Is No Connect"=False,
+E422|-1|921|931|>
+O932|.|0x3|C31/1
+ UID=1222,OBJECTID=932,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V4V",Order=0,"Is No Connect"=False,
+E423|-1|921|932|>
+O933|.|0x3|L1/2
+ UID=1214,OBJECTID=933,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="V4V",Order=1,"Is No Connect"=False,
+E424|-1|921|933|>
+O934|.|0x3|C32/1
+ UID=1229,OBJECTID=934,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="V4V",Order=0,"Is No Connect"=False,
+E425|-1|921|934|>
+O935|x|0x3|MCU_TXD
+ UID=725,OBJECTID=935,NameExpedition="MCU_TXD","Net Name"="MCU_TXD","Net ID"=725,"Is Global"=False,
+E426|-1|1|935||
+O936|.|0x3|U4/PA9/USART1_TX
+ UID=592,OBJECTID=936,NameExpedition="PA9/USART1_TX",Name="PA9/USART1_TX",Number="42","Swap Id"=-1,Type=Passive,"Net Name"="MCU_TXD",Order=41,"Is No Connect"=False,
+E427|-1|935|936|>
+O937|.|0x3|J2/3
+ UID=754,OBJECTID=937,NameExpedition="3",Name="3",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="MCU_TXD",Order=2,"Is No Connect"=False,
+E428|-1|935|937|>
+O938|x|0x3|JTCK
+ UID=731,OBJECTID=938,NameExpedition="JTCK","Net Name"="JTCK","Net ID"=731,"Is Global"=False,
+E429|-1|1|938||
+O939|.|0x3|U4/TCK/PA14
+ UID=599,OBJECTID=939,NameExpedition="TCK/PA14",Name="TCK/PA14",Number="49","Swap Id"=-1,Type=Passive,"Net Name"="JTCK",Order=48,"Is No Connect"=False,
+E430|-1|938|939|>
+O940|.|0x3|J3/2
+ UID=765,OBJECTID=940,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="JTCK",Order=1,"Is No Connect"=False,
+E431|-1|938|940|>
+O941|x|0x3|N15035423
+ UID=735,OBJECTID=941,NameExpedition="N15035423","Net Name"="N15035423","Net ID"=735,"Is Global"=False,
+E432|-1|1|941||
+O942|.|0x3|U4/PB2/BOOT1
+ UID=578,OBJECTID=942,NameExpedition="PB2/BOOT1",Name="PB2/BOOT1",Number="28","Swap Id"=-1,Type=Passive,"Net Name"="N15035423",Order=27,"Is No Connect"=False,
+E433|-1|941|942|>
+O943|.|0x3|R14/2
+ UID=635,OBJECTID=943,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="N15035423",Order=1,"Is No Connect"=False,
+E434|-1|941|943|>
+O944|x|0x3|OSC_O
+ UID=739,OBJECTID=944,NameExpedition="OSC_O","Net Name"="OSC_O","Net ID"=739,"Is Global"=False,
+E435|-1|1|944||
+O945|.|0x3|C5/1
+ UID=637,OBJECTID=945,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="OSC_O",Order=0,"Is No Connect"=False,
+E436|-1|944|945|>
+O946|.|0x3|U4/OSC_OUT
+ UID=556,OBJECTID=946,NameExpedition="OSC_OUT",Name="OSC_OUT",Number="6","Swap Id"=-1,Type=Passive,"Net Name"="OSC_O",Order=5,"Is No Connect"=False,
+E437|-1|944|946|>
+O947|.|0x3|Y1/1
+ UID=631,OBJECTID=947,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="OSC_O",Order=0,"Is No Connect"=False,
+E438|-1|944|947|>
+O948|x|0x3|USART3_TX
+ UID=740,OBJECTID=948,NameExpedition="USART3_TX","Net Name"="USART3_TX","Net ID"=740,"Is Global"=False,
+E439|-1|1|948||
+O949|.|0x3|U4/PB10/USART3_TX
+ UID=579,OBJECTID=949,NameExpedition="PB10/USART3_TX",Name="PB10/USART3_TX",Number="29","Swap Id"=-1,Type=Passive,"Net Name"="USART3_TX",Order=28,"Is No Connect"=False,
+E440|-1|948|949|>
+O950|.|0x3|J6/2
+ UID=1262,OBJECTID=950,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="USART3_TX",Order=1,"Is No Connect"=False,
+E441|-1|948|950|>
+O951|x|0x3|12VM
+ UID=1243,OBJECTID=951,NameExpedition="12VM","Net Name"="12VM","Net ID"=1243,"Is Global"=True,
+E442|-1|1|951||
+O952|.|0x3|R32/2
+ UID=1124,OBJECTID=952,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="12VM",Order=1,"Is No Connect"=False,
+E443|-1|951|952|>
+O953|.|0x3|U13/VIN
+ UID=1196,OBJECTID=953,NameExpedition="VIN",Name="VIN",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="12VM",Order=0,"Is No Connect"=False,
+E444|-1|951|953|>
+O954|.|0x3|C29/1
+ UID=1232,OBJECTID=954,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="12VM",Order=0,"Is No Connect"=False,
+E445|-1|951|954|>
+O955|.|0x3|J8/1
+ UID=1236,OBJECTID=955,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="12VM",Order=0,"Is No Connect"=False,
+E446|-1|951|955|>
+O956|x|0x3|12VG
+ UID=1245,OBJECTID=956,NameExpedition="12VG","Net Name"="12VG","Net ID"=1245,"Is Global"=True,
+E447|-1|1|956||
+O957|.|0x3|J8/4
+ UID=1239,OBJECTID=957,NameExpedition="4",Name="4",Number="4","Swap Id"=-1,Type=Passive,"Net Name"="12VG",Order=3,"Is No Connect"=False,
+E448|-1|956|957|>
+O958|.|0x3|C34/2
+ UID=1256,OBJECTID=958,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="12VG",Order=1,"Is No Connect"=False,
+E449|-1|956|958|>
+O959|.|0x3|U14/Vin
+ UID=1247,OBJECTID=959,NameExpedition="Vin",Name="Vin",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="12VG",Order=0,"Is No Connect"=False,
+E450|-1|956|959|>
+O960|.|0x3|C33/1
+ UID=1258,OBJECTID=960,NameExpedition="1",Name="1",Number="1","Swap Id"=-1,Type=Passive,"Net Name"="12VG",Order=0,"Is No Connect"=False,
+E451|-1|956|960|>
+O961|x|0x3|USART2_TX
+ UID=748,OBJECTID=961,NameExpedition="USART2_TX","Net Name"="USART2_TX","Net ID"=748,"Is Global"=False,
+E452|-1|1|961||
+O962|.|0x3|U1/CATHODE
+ UID=1034,OBJECTID=962,NameExpedition="CATHODE",Name="CATHODE",Number="2","Swap Id"=-1,Type=Passive,"Net Name"="USART2_TX",Order=1,"Is No Connect"=False,
+E453|-1|961|962|>
+O963|.|0x3|U4/PA2/TIM2_CH3/USART2_TX
+ UID=566,OBJECTID=963,NameExpedition="PA2/TIM2_CH3/USART2_TX",Name="PA2/TIM2_CH3/USART2_TX",Number="16","Swap Id"=-1,Type=Passive,"Net Name"="USART2_TX",Order=15,"Is No Connect"=False,
+E454|-1|961|963|>
+O964|x|0x3|JTMS
+ UID=750,OBJECTID=964,NameExpedition="JTMS","Net Name"="JTMS","Net ID"=750,"Is Global"=False,
+E455|-1|1|964||
+O965|.|0x3|U4/TMS/PA13
+ UID=596,OBJECTID=965,NameExpedition="TMS/PA13",Name="TMS/PA13",Number="46","Swap Id"=-1,Type=Passive,"Net Name"="JTMS",Order=45,"Is No Connect"=False,
+E456|-1|964|965|>
+O966|.|0x3|J3/3
+ UID=766,OBJECTID=966,NameExpedition="3",Name="3",Number="3","Swap Id"=-1,Type=Passive,"Net Name"="JTMS",Order=2,"Is No Connect"=False,
+E457|-1|964|966|>
+O9|l|0x3|Page 2
+ UID=-1,OBJECTID=9,Name="power","Page Number"=2,"Create Time"="Thursday, July 21, 2016","Modify Time"="Monday, July 25, 2016",Size="A3","X-Coordinate Size"=420000,"Y-Coordinate Size"=297000,"Outer Border Margin X-Coordinate Size"=0,"Outer Border Margin Y-Coordinate Size"=0,"Outer Border Line Style"=Solid,"Outer Border Line Width"=Thin,&
+ "Outer Border Is Visible"=True,"Inner Border Margin X-Coordinate"=0,"Inner Border Margin Y-Coordinate"=0,"Inner Border Line Style"=Solid,"Inner Border Line Width"=Thin,"Inner Border Is Visible"=False,Color="Default","Label Color"="Default","Horizontal Label Count"=5,"Horizontal Labels are character"=False,"Horizontal Labels are visible"=False,&
+ "Horizontal Labels in ascending order"=False,"Line Style of horizontal label separators"=Solid,"Line Width of horizontal label separators"=Thin,"Vertical Label Count"=4,"Vertical Labels are character"=True,"Vertical Labels are visible"=False,"Vertical Label Is Ascending"=False,"Line style of vertical label separators"=Solid,&
+ "LineWidth of vertical label separators"=Thin,
+E458|-1|1|9||
+O10|l|0x3|Parts
+ UID=-1,OBJECTID=10,
+E459|-1|9|10||
+O11|l|0x3|Nets
+ UID=-1,OBJECTID=11,
+E460|-1|9|11||
+O12|l|0x3|Offpage Connectors
+ UID=-1,OBJECTID=12,
+E461|-1|9|12||
+O13|l|0x3|Hierarchical Ports
+ UID=-1,OBJECTID=13,
+E462|-1|9|13||
+E463|-1|11|673||
+E464|-1|11|870||
+E465|-1|11|921||
+E466|-1|11|788||
+E467|-1|11|571||
+E468|-1|11|951||
+E469|-1|11|681||
+E470|-1|11|956||
+E471|-1|11|829||
+E472|-1|11|707||
+E473|-1|11|728||
+E474|-1|11|686||
+E475|-1|11|894||
+E476|-1|11|678||
+E477|-1|11|689||
+O967|$|0x3|U13
+ UID=1195,OBJECTID=967,Name="INS15269571",ID=1195,Reference="U13","Part Reference"="U13",Value="LM2596S-ADJ",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="LM2596",
+E478|-1|10|967||
+E479|-1|967|953||
+E480|-1|967|895||
+E481|-1|967|787||
+E482|-1|967|784||
+E483|-1|967|572||
+O968|$|0x3|Q2
+ UID=1149,OBJECTID=968,Name="INS15265944",ID=1149,Reference="Q2","Part Reference"="Q2",Value="CES2321",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="sot23_8550",
+E484|-1|10|968||
+E485|-1|968|682||
+E486|-1|968|676||
+E487|-1|968|691||
+O969|$|0x3|D6
+ UID=1143,OBJECTID=969,Name="INS15265846",ID=1143,Reference="D6","Part Reference"="D6",Value="LED_R",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="LED0603",
+E488|-1|10|969||
+E489|-1|969|679||
+E490|-1|969|687||
+O970|$|0x3|U11
+ UID=1131,OBJECTID=970,Name="INS15265740",ID=1131,Reference="U11","Part Reference"="U11",Value="SGM4054",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="sot23_5",
+E491|-1|10|970||
+E492|-1|970|688||
+E493|-1|970|774||
+E494|-1|970|675||
+E495|-1|970|709||
+E496|-1|970|927||
+O971|$|0x3|R32
+ UID=1122,OBJECTID=971,Name="INS15265648",ID=1122,Reference="R32","Part Reference"="R32",Value="51k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="r0603",
+E497|-1|10|971||
+E498|-1|971|685||
+E499|-1|971|952||
+O972|$|0x3|C30
+ UID=1208,OBJECTID=972,Name="INS15270800",ID=1208,Reference="C30","Part Reference"="C30",Value="100pF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E500|-1|10|972||
+E501|-1|972|573||
+E502|-1|972|931||
+O973|$|0x3|C33
+ UID=1257,OBJECTID=973,Name="INS15295548",ID=1257,Reference="C33","Part Reference"="C33",Value="220uF/16V/8*12",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="cd_7_2_1",
+E503|-1|10|973||
+E504|-1|973|960||
+E505|-1|973|854||
+O974|$|0x3|R33
+ UID=1205,OBJECTID=974,Name="INS15270204",ID=1205,Reference="R33","Part Reference"="R33",Value="2.3k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="r0603",
+E506|-1|10|974||
+E507|-1|974|574||
+E508|-1|974|930||
+O975|$|0x3|D7
+ UID=1216,OBJECTID=975,Name="INS15272428",ID=1216,Reference="D7","Part Reference"="D7",Value="IN5822",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="DO_214AC_SMA",
+E509|-1|10|975||
+E510|-1|975|781||
+E511|-1|975|896||
+O976|$|0x3|C32
+ UID=1228,OBJECTID=976,Name="INS15279601",ID=1228,Reference="C32","Part Reference"="C32",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E512|-1|10|976||
+E513|-1|976|934||
+E514|-1|976|783||
+O977|$|0x3|C28
+ UID=1125,OBJECTID=977,Name="INS15265664",ID=1125,Reference="C28","Part Reference"="C28",Value="10uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="c0603",
+E515|-1|10|977||
+E516|-1|977|924||
+E517|-1|977|773||
+O978|$|0x3|R30
+ UID=1146,OBJECTID=978,Name="INS15265866",ID=1146,Reference="R30","Part Reference"="R30",Value="2k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="r0603",
+E518|-1|10|978||
+E519|-1|978|708||
+E520|-1|978|775||
+O979|$|0x3|U12
+ UID=1162,OBJECTID=979,Name="INS15266062",ID=1162,Reference="U12","Part Reference"="U12",Value="XC6220B301MR_SOT25",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="sot23_5",
+E521|-1|10|979||
+E522|-1|979|926||
+E523|-1|979|772||
+E524|-1|979|925||
+O980|.|0x3|U12/NC
+ UID=1166,OBJECTID=980,NameExpedition="NC",Name="NC",Number="4","Swap Id"=-1,Type=Passive,Order=3,"Is No Connect"=True,
+E525|-1|979|980||
+E526|-1|979|823||
+O981|$|0x3|C31
+ UID=1221,OBJECTID=981,Name="INS15275059",ID=1221,Reference="C31","Part Reference"="C31",Value="220uF/16V/8*12",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="cd_7_2_1",
+E527|-1|10|981||
+E528|-1|981|932||
+E529|-1|981|782||
+O982|$|0x3|C34
+ UID=1254,OBJECTID=982,Name="INS15294252",ID=1254,Reference="C34","Part Reference"="C34",Value="0.33uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E530|-1|10|982||
+E531|-1|982|851||
+E532|-1|982|958||
+O983|$|0x3|L1
+ UID=1212,OBJECTID=983,Name="INS15271633",ID=1212,Reference="L1","Part Reference"="L1",Value="68uH/CDR",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="cd127",
+E533|-1|10|983||
+E534|-1|983|897||
+E535|-1|983|933||
+O984|$|0x3|R31
+ UID=1153,OBJECTID=984,Name="INS15265982",ID=1153,Reference="R31","Part Reference"="R31",Value="100k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="r0603",
+E536|-1|10|984||
+E537|-1|984|779||
+E538|-1|984|684||
+O985|$|0x3|Q3
+ UID=1168,OBJECTID=985,Name="INS15266088",ID=1168,Reference="Q3","Part Reference"="Q3",Value="CES2321",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="sot23_8550",
+E539|-1|10|985||
+E540|-1|985|683||
+E541|-1|985|929||
+E542|-1|985|690||
+O986|$|0x3|C29
+ UID=1231,OBJECTID=986,Name="INS15280940",ID=1231,Reference="C29","Part Reference"="C29",Value="220uF/16V/8*12",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="cd_7_2_1",
+E543|-1|10|986||
+E544|-1|986|954||
+E545|-1|986|785||
+O987|$|0x3|C27
+ UID=1156,OBJECTID=987,Name="INS15265998",ID=1156,Reference="C27","Part Reference"="C27",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E546|-1|10|987||
+E547|-1|987|824||
+E548|-1|987|777||
+O988|$|0x3|C35
+ UID=1251,OBJECTID=988,Name="INS15293672",ID=1251,Reference="C35","Part Reference"="C35",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E549|-1|10|988||
+E550|-1|988|853||
+E551|-1|988|886||
+O989|$|0x3|J9
+ UID=1178,OBJECTID=989,Name="INS15266218",ID=1178,Reference="J9","Part Reference"="J9",Value="CON2",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="CON2_0MM_2P",
+E552|-1|10|989||
+E553|-1|989|674||
+E554|-1|989|776||
+O990|$|0x3|U14
+ UID=1246,OBJECTID=990,Name="INS15291165",ID=1246,Reference="U14","Part Reference"="U14",Value="78L05-MG-AB3-R",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="SOT_89",
+E555|-1|10|990||
+E556|-1|990|959||
+E557|-1|990|885||
+E558|-1|990|852||
+O991|$|0x3|J8
+ UID=1235,OBJECTID=991,Name="INS15281673",ID=1235,Reference="J8","Part Reference"="J8",Value="CON4",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="CON_5_0MM_4PIN",
+E559|-1|10|991||
+E560|-1|991|955||
+E561|-1|991|786||
+E562|-1|991|850||
+E563|-1|991|957||
+O992|$|0x3|R34
+ UID=1201,OBJECTID=992,Name="INS15269661",ID=1201,Reference="R34","Part Reference"="R34",Value="1k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="r0603",
+E564|-1|10|992||
+E565|-1|992|575||
+E566|-1|992|780||
+O993|$|0x3|R29
+ UID=1140,OBJECTID=993,Name="INS15265826",ID=1140,Reference="R29","Part Reference"="R29",Value="1k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="r0603",
+E567|-1|10|993||
+E568|-1|993|928||
+E569|-1|993|680||
+O994|$|0x3|C26
+ UID=1172,OBJECTID=994,Name="INS15266130",ID=1172,Reference="C26","Part Reference"="C26",Value="10uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="c0603",
+E570|-1|10|994||
+E571|-1|994|677||
+E572|-1|994|778||
+O14|l|0x3|Page 1
+ UID=-1,OBJECTID=14,Name="mcu","Page Number"=1,"Create Time"="Tuesday, July 19, 2016","Modify Time"="Monday, July 25, 2016",Size="A2","X-Coordinate Size"=594000,"Y-Coordinate Size"=420000,"Outer Border Margin X-Coordinate Size"=0,"Outer Border Margin Y-Coordinate Size"=0,"Outer Border Line Style"=Solid,"Outer Border Line Width"=Thin,&
+ "Outer Border Is Visible"=True,"Inner Border Margin X-Coordinate"=0,"Inner Border Margin Y-Coordinate"=0,"Inner Border Line Style"=Solid,"Inner Border Line Width"=Thin,"Inner Border Is Visible"=False,Color="Default","Label Color"="Default","Horizontal Label Count"=5,"Horizontal Labels are character"=False,"Horizontal Labels are visible"=False,&
+ "Horizontal Labels in ascending order"=False,"Line Style of horizontal label separators"=Solid,"Line Width of horizontal label separators"=Thin,"Vertical Label Count"=4,"Vertical Labels are character"=True,"Vertical Labels are visible"=False,"Vertical Label Is Ascending"=False,"Line style of vertical label separators"=Solid,&
+ "LineWidth of vertical label separators"=Thin,
+E573|-1|1|14||
+O15|l|0x3|Parts
+ UID=-1,OBJECTID=15,
+E574|-1|14|15||
+O16|l|0x3|Nets
+ UID=-1,OBJECTID=16,
+E575|-1|14|16||
+O17|l|0x3|Offpage Connectors
+ UID=-1,OBJECTID=17,
+E576|-1|14|17||
+O18|l|0x3|Hierarchical Ports
+ UID=-1,OBJECTID=18,
+E577|-1|14|18||
+E578|-1|16|829||
+E579|-1|16|695||
+E580|-1|16|692||
+E581|-1|16|595||
+E582|-1|16|704||
+E583|-1|16|870||
+E584|-1|16|666||
+E585|-1|16|576||
+E586|-1|16|536||
+E587|-1|16|565||
+E588|-1|16|669||
+E589|-1|16|549||
+E590|-1|16|568||
+E591|-1|16|935||
+E592|-1|16|589||
+E593|-1|16|625||
+E594|-1|16|861||
+E595|-1|16|611||
+E596|-1|16|921||
+E597|-1|16|622||
+E598|-1|16|582||
+E599|-1|16|592||
+E600|-1|16|964||
+E601|-1|16|618||
+E602|-1|16|552||
+E603|-1|16|890||
+E604|-1|16|608||
+E605|-1|16|710||
+E606|-1|16|614||
+E607|-1|16|632||
+E608|-1|16|556||
+E609|-1|16|716||
+E610|-1|16|628||
+E611|-1|16|725||
+E612|-1|16|644||
+E613|-1|16|604||
+E614|-1|16|652||
+E615|-1|16|728||
+E616|-1|16|659||
+E617|-1|16|907||
+E618|-1|16|640||
+E619|-1|16|559||
+E620|-1|16|938||
+E621|-1|16|579||
+E622|-1|16|961||
+E623|-1|16|858||
+E624|-1|16|720||
+E625|-1|16|701||
+E626|-1|16|867||
+E627|-1|16|540||
+E628|-1|16|562||
+E629|-1|16|898||
+E630|-1|16|546||
+E631|-1|16|887||
+E632|-1|16|656||
+E633|-1|16|948||
+E634|-1|16|601||
+E635|-1|16|543||
+E636|-1|16|901||
+E637|-1|16|855||
+E638|-1|16|585||
+E639|-1|16|864||
+E640|-1|16|788||
+E641|-1|16|825||
+E642|-1|16|904||
+E643|-1|16|915||
+E644|-1|16|944||
+E645|-1|16|663||
+E646|-1|16|918||
+E647|-1|16|941||
+E648|-1|16|912||
+O995|$|0x3|U6
+ UID=995,OBJECTID=995,Name="INS15140793",ID=995,Reference="U6","Part Reference"="U6",Value="TLP118",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="TLP118",
+E649|-1|15|995||
+E650|-1|995|541||
+E651|-1|995|668||
+E652|-1|995|832||
+E653|-1|995|537||
+E654|-1|995|876||
+O996|$|0x3|C16
+ UID=872,OBJECTID=996,Name="INS15098682",ID=872,Reference="C16","Part Reference"="C16",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E655|-1|15|996||
+E656|-1|996|587||
+E657|-1|996|555||
+O997|$|0x3|R8
+ UID=627,OBJECTID=997,Name="INS15035357",ID=627,Reference="R8","Part Reference"="R8",Value="1k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="r0603",
+E658|-1|15|997||
+E659|-1|997|891||
+E660|-1|997|740||
+O998|$|0x3|R5
+ UID=377,OBJECTID=998,Name="INS15033237",ID=377,Reference="R5","Part Reference"="R5",Value="10k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E661|-1|15|998||
+E662|-1|998|789||
+E663|-1|998|717||
+O999|$|0x3|R6
+ UID=386,OBJECTID=999,Name="INS15033339",ID=386,Reference="R6","Part Reference"="R6",Value="200",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E664|-1|15|999||
+E665|-1|999|868||
+E666|-1|999|875||
+O1000|$|0x3|R25
+ UID=887,OBJECTID=1000,Name="INS15105354",ID=887,Reference="R25","Part Reference"="R25",Value="49.9",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E667|-1|15|1000||
+E668|-1|1000|617||
+E669|-1|1000|599||
+O1001|$|0x3|D3
+ UID=946,OBJECTID=1001,Name="INS15132220",ID=946,Reference="D3","Part Reference"="D3",Value="LED_G",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="LED0603",
+E670|-1|15|1001||
+E671|-1|1001|856||
+E672|-1|1001|757||
+O1002|$|0x3|C1
+ UID=615,OBJECTID=1002,Name="INS15035061",ID=615,Reference="C1","Part Reference"="C1",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E673|-1|15|1002||
+E674|-1|1002|795||
+E675|-1|1002|735||
+O1003|$|0x3|J5
+ UID=1096,OBJECTID=1003,Name="INS15247663",ID=1096,Reference="J5","Part Reference"="J5",Value="CON4",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="CON_5_0MM_4PIN",
+E676|-1|15|1003||
+E677|-1|1003|651||
+O1004|.|0x3|J5/2
+ UID=1098,OBJECTID=1004,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,Order=1,"Is No Connect"=True,
+E678|-1|1003|1004||
+O1005|.|0x3|J5/3
+ UID=1099,OBJECTID=1005,NameExpedition="3",Name="3",Number="3","Swap Id"=-1,Type=Passive,Order=2,"Is No Connect"=True,
+E679|-1|1003|1005||
+E680|-1|1003|639||
+O1006|$|0x3|C25
+ UID=1118,OBJECTID=1006,Name="INS15258778",ID=1118,Reference="C25","Part Reference"="C25",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E681|-1|15|1006||
+E682|-1|1006|818||
+E683|-1|1006|766||
+O1007|$|0x3|C19
+ UID=853,OBJECTID=1007,Name="INS15088191",ID=853,Reference="C19","Part Reference"="C19",Value="30pF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E684|-1|15|1007||
+E685|-1|1007|750||
+E686|-1|1007|631||
+O1008|$|0x3|R2
+ UID=424,OBJECTID=1008,Name="INS15033651",ID=424,Reference="R2","Part Reference"="R2",Value="100",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E687|-1|15|1008||
+E688|-1|1008|790||
+E689|-1|1008|906||
+O1009|$|0x3|C21
+ UID=1103,OBJECTID=1009,Name="INS15255145",ID=1103,Reference="C21","Part Reference"="C21",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E690|-1|15|1009||
+E691|-1|1009|815||
+E692|-1|1009|763||
+O1010|$|0x3|C37
+ UID=1336,OBJECTID=1010,Name="INS15416241",ID=1336,Reference="C37","Part Reference"="C37",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E693|-1|15|1010||
+E694|-1|1010|822||
+E695|-1|1010|771||
+O1011|$|0x3|C15
+ UID=1078,OBJECTID=1011,Name="INS15229999",ID=1078,Reference="C15","Part Reference"="C15",Value="4.7nF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E696|-1|15|1011||
+E697|-1|1011|843||
+E698|-1|1011|648||
+O1012|$|0x3|TVS3
+ UID=982,OBJECTID=1012,Name="INS15137382",ID=982,Reference="TVS3","Part Reference"="TVS3",Value="SMBJ6.8CA",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="SMBJ6_0",
+E699|-1|15|1012||
+E700|-1|1012|838||
+E701|-1|1012|715||
+O1013|$|0x3|R1
+ UID=401,OBJECTID=1013,Name="INS15033453",ID=401,Reference="R1","Part Reference"="R1",Value="10k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E702|-1|15|1013||
+E703|-1|1013|723||
+E704|-1|1013|883||
+O1014|$|0x3|C12
+ UID=1072,OBJECTID=1014,Name="INS15225758",ID=1072,Reference="C12","Part Reference"="C12",Value="4.7nF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E705|-1|15|1014||
+E706|-1|1014|606||
+E707|-1|1014|842||
+O1015|$|0x3|C3
+ UID=624,OBJECTID=1015,Name="INS15035171",ID=624,Reference="C3","Part Reference"="C3",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E708|-1|15|1015||
+E709|-1|1015|794||
+E710|-1|1015|734||
+O1016|$|0x3|Y1
+ UID=630,OBJECTID=1016,Name="INS15035373",ID=630,Reference="Y1","Part Reference"="Y1",Value="8M",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="Y5032",
+E711|-1|15|1016||
+E712|-1|1016|947||
+E713|-1|1016|828||
+O1017|$|0x3|C7
+ UID=380,OBJECTID=1017,Name="INS15033253",ID=380,Reference="C7","Part Reference"="C7",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E714|-1|15|1017||
+E715|-1|1017|831||
+E716|-1|1017|873||
+O1018|$|0x3|RJ45_1
+ UID=797,OBJECTID=1018,Name="INS15072624",ID=797,Reference="RJ45_1","Part Reference"="RJ45_1",Value="HY911105A",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="RJ45_HY911105A",
+E717|-1|15|1018||
+E718|-1|1018|616||
+E719|-1|1018|620||
+E720|-1|1018|661||
+E721|-1|1018|596||
+O1019|.|0x3|RJ45_1/P5
+ UID=802,OBJECTID=1019,NameExpedition="P5",Name="P5",Number="5","Swap Id"=-1,Type=Passive,Order=4,"Is No Connect"=False,
+E722|-1|1018|1019||
+E723|-1|1018|654||
+O1020|.|0x3|RJ45_1/NC
+ UID=804,OBJECTID=1020,NameExpedition="NC",Name="NC",Number="7","Swap Id"=-1,Type=Passive,Order=6,"Is No Connect"=True,
+E724|-1|1018|1020||
+E725|-1|1018|749||
+E726|-1|1018|577||
+E727|-1|1018|748||
+E728|-1|1018|580||
+E729|-1|1018|769||
+O1021|$|0x3|C13
+ UID=1029,OBJECTID=1021,Name="INS15176573",ID=1029,Reference="C13","Part Reference"="C13",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E730|-1|15|1021||
+E731|-1|1021|812||
+E732|-1|1021|760||
+O1022|$|0x3|C5
+ UID=636,OBJECTID=1022,Name="INS15035477",ID=636,Reference="C5","Part Reference"="C5",Value="22pF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E733|-1|15|1022||
+E734|-1|1022|945||
+E735|-1|1022|739||
+O1023|$|0x3|R28
+ UID=838,OBJECTID=1023,Name="INS15083858",ID=838,Reference="R28","Part Reference"="R28",Value="510",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E736|-1|15|1023||
+E737|-1|1023|624||
+E738|-1|1023|581||
+O1024|$|0x3|R10
+ UID=970,OBJECTID=1024,Name="INS15133452",ID=970,Reference="R10","Part Reference"="R10",Value="1k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E739|-1|15|1024||
+E740|-1|1024|914||
+E741|-1|1024|919||
+O1025|$|0x3|R16
+ UID=1045,OBJECTID=1025,Name="INS15192942",ID=1045,Reference="R16","Part Reference"="R16",Value="47k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E742|-1|15|1025||
+E743|-1|1025|570||
+E744|-1|1025|841||
+O1026|$|0x3|R11
+ UID=427,OBJECTID=1026,Name="INS15033667",ID=427,Reference="R11","Part Reference"="R11",Value="4.7k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E745|-1|15|1026||
+E746|-1|1026|837||
+E747|-1|1026|697||
+O1027|$|0x3|U3
+ UID=1038,OBJECTID=1027,Name="INS15185061",ID=1038,Reference="U3","Part Reference"="U3",Value="TLP118",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="TLP118",
+E748|-1|15|1027||
+E749|-1|1027|869||
+E750|-1|1027|726||
+E751|-1|1027|761||
+E752|-1|1027|718||
+E753|-1|1027|813||
+O1028|$|0x3|R7
+ UID=411,OBJECTID=1028,Name="INS15033567",ID=411,Reference="R7","Part Reference"="R7",Value="4.7k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E754|-1|15|1028||
+E755|-1|1028|713||
+E756|-1|1028|871||
+O1029|$|0x3|C22
+ UID=1106,OBJECTID=1029,Name="INS15255161",ID=1106,Reference="C22","Part Reference"="C22",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E757|-1|15|1029||
+E758|-1|1029|816||
+E759|-1|1029|764||
+O1030|$|0x3|C10
+ UID=1081,OBJECTID=1030,Name="INS15232844",ID=1081,Reference="C10","Part Reference"="C10",Value="4.7nF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E760|-1|15|1030||
+E761|-1|1030|846||
+E762|-1|1030|635||
+O1031|$|0x3|R24
+ UID=882,OBJECTID=1031,Name="INS15104170",ID=882,Reference="R24","Part Reference"="R24",Value="49.9",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E763|-1|15|1031||
+E764|-1|1031|621||
+E765|-1|1031|597||
+O1032|$|0x3|U1
+ UID=1032,OBJECTID=1032,Name="INS15179208",ID=1032,Reference="U1","Part Reference"="U1",Value="TLP118",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="TLP118",
+E766|-1|15|1032||
+E767|-1|1032|905||
+E768|-1|1032|962||
+E769|-1|1032|833||
+E770|-1|1032|724||
+E771|-1|1032|880||
+O1033|$|0x3|C18
+ UID=890,OBJECTID=1033,Name="INS15106293",ID=890,Reference="C18","Part Reference"="C18",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E772|-1|15|1033||
+E773|-1|1033|598||
+E774|-1|1033|770||
+O1034|$|0x3|U10
+ UID=768,OBJECTID=1034,Name="INS15072407",ID=768,Reference="U10","Part Reference"="U10",Value="ENC28J60",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="ENC28J60_SOIC",
+E775|-1|15|1034||
+E776|-1|1034|664||
+E777|-1|1034|744||
+O1035|.|0x3|U10/CLKout
+ UID=771,OBJECTID=1035,NameExpedition="CLKout",Name="CLKout",Number="3","Swap Id"=-1,Type=Passive,Order=2,"Is No Connect"=True,
+E778|-1|1034|1035||
+E779|-1|1034|612||
+O1036|.|0x3|U10/NC
+ UID=773,OBJECTID=1036,NameExpedition="NC",Name="NC",Number="5","Swap Id"=-1,Type=Passive,Order=4,"Is No Connect"=True,
+E780|-1|1034|1036||
+E781|-1|1034|609||
+E782|-1|1034|602||
+E783|-1|1034|593||
+E784|-1|1034|583||
+E785|-1|1034|590||
+E786|-1|1034|745||
+E787|-1|1034|653||
+E788|-1|1034|660||
+E789|-1|1034|657||
+E790|-1|1034|804||
+E791|-1|1034|626||
+E792|-1|1034|623||
+E793|-1|1034|805||
+E794|-1|1034|641||
+E795|-1|1034|629||
+E796|-1|1034|753||
+E797|-1|1034|746||
+E798|-1|1034|806||
+E799|-1|1034|807||
+E800|-1|1034|747||
+E801|-1|1034|615||
+E802|-1|1034|619||
+E803|-1|1034|808||
+O1037|$|0x3|R20
+ UID=1025,OBJECTID=1037,Name="INS15172752",ID=1025,Reference="R20","Part Reference"="R20",Value="10k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E804|-1|15|1037||
+E805|-1|1037|671||
+E806|-1|1037|811||
+O1038|$|0x3|R27
+ UID=834,OBJECTID=1038,Name="INS15082561",ID=834,Reference="R27","Part Reference"="R27",Value="510",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E807|-1|15|1038||
+E808|-1|1038|627||
+E809|-1|1038|578||
+O1039|$|0x3|J2
+ UID=751,OBJECTID=1039,Name="INS15040038",ID=751,Reference="J2","Part Reference"="J2",Value="CON4",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="con4_2mm",
+E810|-1|15|1039||
+E811|-1|1039|802||
+E812|-1|1039|863||
+E813|-1|1039|937||
+E814|-1|1039|742||
+O1040|$|0x3|R18
+ UID=1051,OBJECTID=1040,Name="INS15198107",ID=1051,Reference="R18","Part Reference"="R18",Value="60",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E815|-1|15|1040||
+E816|-1|1040|607||
+E817|-1|1040|634||
+O1041|$|0x3|C23
+ UID=1109,OBJECTID=1041,Name="INS15255177",ID=1109,Reference="C23","Part Reference"="C23",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E818|-1|15|1041||
+E819|-1|1041|817||
+E820|-1|1041|765||
+O1042|$|0x3|C6
+ UID=618,OBJECTID=1042,Name="INS15035099",ID=618,Reference="C6","Part Reference"="C6",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E821|-1|15|1042||
+E822|-1|1042|796||
+E823|-1|1042|736||
+O1043|$|0x3|U7
+ UID=1091,OBJECTID=1043,Name="INS15240837",ID=1091,Reference="U7","Part Reference"="U7",Value="NUP2105",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="SOT23",
+E824|-1|15|1043||
+E825|-1|1043|638||
+E826|-1|1043|637||
+E827|-1|1043|845||
+O1044|$|0x3|C11
+ UID=1084,OBJECTID=1044,Name="INS15232860",ID=1084,Reference="C11","Part Reference"="C11",Value="4.7nF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E828|-1|15|1044||
+E829|-1|1044|844||
+E830|-1|1044|636||
+O1045|$|0x3|TVS2
+ UID=979,OBJECTID=1045,Name="INS15137113",ID=979,Reference="TVS2","Part Reference"="TVS2",Value="SMBJ6.8CA",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="SMBJ6_0",
+E831|-1|15|1045||
+E832|-1|1045|836||
+E833|-1|1045|700||
+O1046|$|0x3|U2
+ UID=389,OBJECTID=1046,Name="INS15033375",ID=389,Reference="U2","Part Reference"="U2",Value="max485esa",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="SOP8",
+E834|-1|15|1046||
+E835|-1|1046|727||
+E836|-1|1046|909||
+E837|-1|1046|908||
+E838|-1|1046|721||
+E839|-1|1046|834||
+E840|-1|1046|711||
+E841|-1|1046|696||
+E842|-1|1046|872||
+O1047|$|0x3|U8
+ UID=1010,OBJECTID=1047,Name="INS15148321",ID=1010,Reference="U8","Part Reference"="U8",Value="TLP118",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="TLP118",
+E843|-1|15|1047||
+E844|-1|1047|547||
+E845|-1|1047|544||
+E846|-1|1047|759||
+E847|-1|1047|672||
+E848|-1|1047|810||
+O1048|$|0x3|R9
+ UID=949,OBJECTID=1048,Name="INS15132270",ID=949,Reference="R9","Part Reference"="R9",Value="1k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E849|-1|15|1048||
+E850|-1|1048|857||
+E851|-1|1048|888||
+O1049|$|0x3|C14
+ UID=1075,OBJECTID=1049,Name="INS15228423",ID=1075,Reference="C14","Part Reference"="C14",Value="4.7nF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E852|-1|15|1049||
+E853|-1|1049|847||
+E854|-1|1049|647||
+O1050|$|0x3|U5
+ UID=986,OBJECTID=1050,Name="INS15140443",ID=986,Reference="U5","Part Reference"="U5",Value="PCA82C251",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="SOP8",
+E855|-1|15|1050||
+E856|-1|1050|539||
+E857|-1|1050|840||
+E858|-1|1050|879||
+E859|-1|1050|545||
+E860|-1|1050|569||
+E861|-1|1050|633||
+E862|-1|1050|645||
+O1051|.|0x3|U5/Vref
+ UID=994,OBJECTID=1051,NameExpedition="Vref",Name="Vref",Number="5","Swap Id"=-1,Type=Passive,Order=7,"Is No Connect"=False,
+E863|-1|1050|1051||
+O1052|$|0x3|C4
+ UID=639,OBJECTID=1052,Name="INS15035517",ID=639,Reference="C4","Part Reference"="C4",Value="22pF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E864|-1|15|1052||
+E865|-1|1052|826||
+E866|-1|1052|733||
+O1053|$|0x3|J1
+ UID=756,OBJECTID=1053,Name="INS15040062",ID=756,Reference="J1","Part Reference"="J1",Value="CON2",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="con2_2mm",
+E867|-1|15|1053||
+E868|-1|1053|893||
+E869|-1|1053|801||
+O1054|$|0x3|C36
+ UID=1333,OBJECTID=1054,Name="INS15412752",ID=1333,Reference="C36","Part Reference"="C36",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E870|-1|15|1054||
+E871|-1|1054|882||
+E872|-1|1054|849||
+O1055|$|0x3|C24
+ UID=1112,OBJECTID=1055,Name="INS15255193",ID=1112,Reference="C24","Part Reference"="C24",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E873|-1|15|1055||
+E874|-1|1055|814||
+E875|-1|1055|762||
+O1056|$|0x3|U9
+ UID=1087,OBJECTID=1056,Name="INS15237617",ID=1087,Reference="U9","Part Reference"="U9",Value="NUP2105",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="SOT23",
+E876|-1|15|1056||
+E877|-1|1056|650||
+E878|-1|1056|649||
+E879|-1|1056|830||
+O1057|$|0x3|R17
+ UID=1005,OBJECTID=1057,Name="INS15145306",ID=1005,Reference="R17","Part Reference"="R17",Value="100",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E880|-1|15|1057||
+E881|-1|1057|809||
+E882|-1|1057|542||
+O1058|$|0x3|J3
+ UID=763,OBJECTID=1058,Name="INS15071172",ID=763,Reference="J3","Part Reference"="J3",Value="CON4",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="CON4_2_54",
+E883|-1|15|1058||
+E884|-1|1058|803||
+E885|-1|1058|940||
+E886|-1|1058|966||
+E887|-1|1058|743||
+O1059|$|0x3|J4
+ UID=541,OBJECTID=1059,Name="INS15034713",ID=541,Reference="J4","Part Reference"="J4",Value="CON4",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="CON_5_0MM_4PIN",
+E888|-1|15|1059||
+E889|-1|1059|699||
+O1060|.|0x3|J4/2
+ UID=543,OBJECTID=1060,NameExpedition="2",Name="2",Number="2","Swap Id"=-1,Type=Passive,Order=1,"Is No Connect"=True,
+E890|-1|1059|1060||
+O1061|.|0x3|J4/3
+ UID=544,OBJECTID=1061,NameExpedition="3",Name="3",Number="3","Swap Id"=-1,Type=Passive,Order=2,"Is No Connect"=True,
+E891|-1|1059|1061||
+E892|-1|1059|714||
+O1062|$|0x3|R22
+ UID=863,OBJECTID=1062,Name="INS15093298",ID=863,Reference="R22","Part Reference"="R22",Value="49.9",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E893|-1|15|1062||
+E894|-1|1062|655||
+E895|-1|1062|588||
+O1063|$|0x3|R26
+ UID=897,OBJECTID=1063,Name="INS15112186",ID=897,Reference="R26","Part Reference"="R26",Value="2k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E896|-1|15|1063||
+E897|-1|1063|658||
+E898|-1|1063|752||
+O1064|$|0x3|C9
+ UID=1115,OBJECTID=1064,Name="INS15255708",ID=1115,Reference="C9","Part Reference"="C9",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E899|-1|15|1064||
+E900|-1|1064|881||
+E901|-1|1064|848||
+O1065|$|0x3|R19
+ UID=1054,OBJECTID=1065,Name="INS15201372",ID=1054,Reference="R19","Part Reference"="R19",Value="60",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E902|-1|15|1065||
+E903|-1|1065|605||
+E904|-1|1065|646||
+O1066|$|0x3|R14
+ UID=633,OBJECTID=1066,Name="INS15035429",ID=633,Reference="R14","Part Reference"="R14",Value="1k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E905|-1|15|1066||
+E906|-1|1066|741||
+E907|-1|1066|943||
+O1067|$|0x3|C2
+ UID=621,OBJECTID=1067,Name="INS15035127",ID=621,Reference="C2","Part Reference"="C2",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E908|-1|15|1067||
+E909|-1|1067|797||
+E910|-1|1067|737||
+O1068|$|0x3|D1
+ UID=940,OBJECTID=1068,Name="INS15132188",ID=940,Reference="D1","Part Reference"="D1",Value="LED_G",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="LED0603",
+E911|-1|15|1068||
+E912|-1|1068|859||
+E913|-1|1068|755||
+O1069|$|0x3|C17
+ UID=900,OBJECTID=1069,Name="INS15115120",ID=900,Reference="C17","Part Reference"="C17",Value="10uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E914|-1|15|1069||
+E915|-1|1069|665||
+E916|-1|1069|754||
+O1070|$|0x3|J6
+ UID=1260,OBJECTID=1070,Name="INS15307111",ID=1260,Reference="J6","Part Reference"="J6",Value="CON8",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="con4X2_2_54",
+E917|-1|15|1070||
+E918|-1|1070|706||
+E919|-1|1070|950||
+O1071|.|0x3|J6/3
+ UID=1263,OBJECTID=1071,NameExpedition="3",Name="3",Number="3","Swap Id"=-1,Type=Passive,Order=2,"Is No Connect"=False,
+E920|-1|1070|1071||
+O1072|.|0x3|J6/4
+ UID=1264,OBJECTID=1072,NameExpedition="4",Name="4",Number="4","Swap Id"=-1,Type=Passive,Order=3,"Is No Connect"=False,
+E921|-1|1070|1072||
+E922|-1|1070|768||
+E923|-1|1070|767||
+E924|-1|1070|820||
+E925|-1|1070|819||
+O1073|$|0x3|R4
+ UID=952,OBJECTID=1073,Name="INS15132292",ID=952,Reference="R4","Part Reference"="R4",Value="1k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E926|-1|15|1073||
+E927|-1|1073|866||
+E928|-1|1073|902||
+O1074|$|0x3|R23
+ UID=867,OBJECTID=1074,Name="INS15096034",ID=867,Reference="R23","Part Reference"="R23",Value="49.9",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E929|-1|15|1074||
+E930|-1|1074|662||
+E931|-1|1074|586||
+O1075|$|0x3|R12
+ UID=383,OBJECTID=1075,Name="INS15033313",ID=383,Reference="R12","Part Reference"="R12",Value="4.7k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E932|-1|15|1075||
+E933|-1|1075|911||
+E934|-1|1075|835||
+O1076|$|0x3|R13
+ UID=404,OBJECTID=1076,Name="INS15033517",ID=404,Reference="R13","Part Reference"="R13",Value="1k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E935|-1|15|1076||
+E936|-1|1076|916||
+E937|-1|1076|722||
+O1077|$|0x3|Y2
+ UID=846,OBJECTID=1077,Name="INS15086543",ID=846,Reference="Y2","Part Reference"="Y2",Value="25M",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="Y5032",
+E938|-1|15|1077||
+E939|-1|1077|642||
+E940|-1|1077|630||
+O1078|$|0x3|R15
+ UID=1001,OBJECTID=1078,Name="INS15142397",ID=1001,Reference="R15","Part Reference"="R15",Value="10k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E941|-1|15|1078||
+E942|-1|1078|538||
+E943|-1|1078|877||
+O1079|$|0x3|TVS1
+ UID=398,OBJECTID=1079,Name="INS15033419",ID=398,Reference="TVS1","Part Reference"="TVS1",Value="SMBJ6.8CA",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="SMBJ6_0",
+E944|-1|15|1079||
+E945|-1|1079|698||
+E946|-1|1079|712||
+O1080|$|0x3|R21
+ UID=1021,OBJECTID=1080,Name="INS15166138",ID=1021,Reference="R21","Part Reference"="R21",Value="200",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E947|-1|15|1080||
+E948|-1|1080|548||
+E949|-1|1080|884||
+O1081|$|0x3|FB1
+ UID=893,OBJECTID=1081,Name="INS15109579",ID=893,Reference="FB1","Part Reference"="FB1",Value="FB",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="r0603",
+E950|-1|15|1081||
+E951|-1|1081|821||
+E952|-1|1081|600||
+O1082|$|0x3|C20
+ UID=856,OBJECTID=1082,Name="INS15088572",ID=856,Reference="C20","Part Reference"="C20",Value="30pF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E953|-1|15|1082||
+E954|-1|1082|751||
+E955|-1|1082|643||
+O1083|$|0x3|D2
+ UID=943,OBJECTID=1083,Name="INS15132204",ID=943,Reference="D2","Part Reference"="D2",Value="LED_G",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="LED0603",
+E956|-1|15|1083||
+E957|-1|1083|865||
+E958|-1|1083|756||
+O1084|$|0x3|C8
+ UID=1016,OBJECTID=1084,Name="INS15152810",ID=1016,Reference="C8","Part Reference"="C8",Value="0.1uF",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="C0603",
+E959|-1|15|1084||
+E960|-1|1084|839||
+E961|-1|1084|878||
+O1085|$|0x3|U4
+ UID=550,OBJECTID=1085,Name="INS15034921",ID=550,Reference="U4","Part Reference"="U4",Value="STM32F103rdt6_64",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="STM32_LQFP64",
+E962|-1|15|1085||
+E963|-1|1085|791||
+O1086|.|0x3|U4/PC13/RTC/TAM
+ UID=552,OBJECTID=1086,NameExpedition="PC13/RTC/TAM",Name="PC13/RTC/TAM",Number="2","Swap Id"=-1,Type=Passive,Order=1,"Is No Connect"=False,
+E964|-1|1085|1086||
+O1087|.|0x3|U4/PC14/OSC32_IN
+ UID=553,OBJECTID=1087,NameExpedition="PC14/OSC32_IN",Name="PC14/OSC32_IN",Number="3","Swap Id"=-1,Type=Passive,Order=2,"Is No Connect"=False,
+E965|-1|1085|1087||
+O1088|.|0x3|U4/PC15/OSC32_OUT
+ UID=554,OBJECTID=1088,NameExpedition="PC15/OSC32_OUT",Name="PC15/OSC32_OUT",Number="4","Swap Id"=-1,Type=Passive,Order=3,"Is No Connect"=False,
+E966|-1|1085|1088||
+E967|-1|1085|827||
+E968|-1|1085|946||
+O1089|.|0x3|U4/\\\\R\\E\\S\\E\\T
+ UID=557,OBJECTID=1089,NameExpedition="%%R%E%S%E%T",Name="\\\\R\\E\\S\\E\\T",Number="7","Swap Id"=-1,Type=Passive,Order=6,"Is No Connect"=False,
+E969|-1|1085|1089||
+O1090|.|0x3|U4/PC0/ADC_IN10
+ UID=558,OBJECTID=1090,NameExpedition="PC0/ADC_IN10",Name="PC0/ADC_IN10",Number="8","Swap Id"=-1,Type=Passive,Order=7,"Is No Connect"=False,
+E970|-1|1085|1090||
+O1091|.|0x3|U4/PC1/ADC_IN11
+ UID=559,OBJECTID=1091,NameExpedition="PC1/ADC_IN11",Name="PC1/ADC_IN11",Number="9","Swap Id"=-1,Type=Passive,Order=8,"Is No Connect"=False,
+E971|-1|1085|1091||
+O1092|.|0x3|U4/PC2/ADC_IN12
+ UID=560,OBJECTID=1092,NameExpedition="PC2/ADC_IN12",Name="PC2/ADC_IN12",Number="10","Swap Id"=-1,Type=Passive,Order=9,"Is No Connect"=False,
+E972|-1|1085|1092||
+O1093|.|0x3|U4/PC3/ADC_IN13
+ UID=561,OBJECTID=1093,NameExpedition="PC3/ADC_IN13",Name="PC3/ADC_IN13",Number="11","Swap Id"=-1,Type=Passive,Order=10,"Is No Connect"=False,
+E973|-1|1085|1093||
+E974|-1|1085|730||
+E975|-1|1085|800||
+O1094|.|0x3|U4/PA0
+ UID=564,OBJECTID=1094,NameExpedition="PA0",Name="PA0",Number="14","Swap Id"=-1,Type=Passive,Order=13,"Is No Connect"=False,
+E976|-1|1085|1094||
+O1095|.|0x3|U4/PA1/TIM2_CH2
+ UID=565,OBJECTID=1095,NameExpedition="PA1/TIM2_CH2",Name="PA1/TIM2_CH2",Number="15","Swap Id"=-1,Type=Passive,Order=14,"Is No Connect"=False,
+E977|-1|1085|1095||
+E978|-1|1085|963||
+E979|-1|1085|719||
+E980|-1|1085|731||
+E981|-1|1085|792||
+O1096|.|0x3|U4/PA4/SPI1_NSS
+ UID=570,OBJECTID=1096,NameExpedition="PA4/SPI1_NSS",Name="PA4/SPI1_NSS",Number="20","Swap Id"=-1,Type=Passive,Order=19,"Is No Connect"=False,
+E982|-1|1085|1096||
+O1097|.|0x3|U4/PA5/SPI1_SCK
+ UID=571,OBJECTID=1097,NameExpedition="PA5/SPI1_SCK",Name="PA5/SPI1_SCK",Number="21","Swap Id"=-1,Type=Passive,Order=20,"Is No Connect"=False,
+E983|-1|1085|1097||
+O1098|.|0x3|U4/PA6/SPI1_MISO
+ UID=572,OBJECTID=1098,NameExpedition="PA6/SPI1_MISO",Name="PA6/SPI1_MISO",Number="22","Swap Id"=-1,Type=Passive,Order=21,"Is No Connect"=False,
+E984|-1|1085|1098||
+O1099|.|0x3|U4/PA7/SPI1_MOSI
+ UID=573,OBJECTID=1099,NameExpedition="PA7/SPI1_MOSI",Name="PA7/SPI1_MOSI",Number="23","Swap Id"=-1,Type=Passive,Order=22,"Is No Connect"=False,
+E985|-1|1085|1099||
+O1100|.|0x3|U4/PC4
+ UID=574,OBJECTID=1100,NameExpedition="PC4",Name="PC4",Number="24","Swap Id"=-1,Type=Passive,Order=23,"Is No Connect"=False,
+E986|-1|1085|1100||
+O1101|.|0x3|U4/PC5
+ UID=575,OBJECTID=1101,NameExpedition="PC5",Name="PC5",Number="25","Swap Id"=-1,Type=Passive,Order=24,"Is No Connect"=False,
+E987|-1|1085|1101||
+O1102|.|0x3|U4/PB0/TIM3_CH3
+ UID=576,OBJECTID=1102,NameExpedition="PB0/TIM3_CH3",Name="PB0/TIM3_CH3",Number="26","Swap Id"=-1,Type=Passive,Order=25,"Is No Connect"=False,
+E988|-1|1085|1102||
+O1103|.|0x3|U4/PB1/TIM3_CH4
+ UID=577,OBJECTID=1103,NameExpedition="PB1/TIM3_CH4",Name="PB1/TIM3_CH4",Number="27","Swap Id"=-1,Type=Passive,Order=26,"Is No Connect"=False,
+E989|-1|1085|1103||
+E990|-1|1085|942||
+E991|-1|1085|949||
+E992|-1|1085|705||
+E993|-1|1085|732||
+E994|-1|1085|793||
+E995|-1|1085|584||
+E996|-1|1085|594||
+E997|-1|1085|610||
+E998|-1|1085|603||
+E999|-1|1085|613||
+E1000|-1|1085|591||
+O1104|.|0x3|U4/PC8
+ UID=589,OBJECTID=1104,NameExpedition="PC8",Name="PC8",Number="39","Swap Id"=-1,Type=Passive,Order=38,"Is No Connect"=False,
+E1001|-1|1085|1104||
+O1105|.|0x3|U4/PC9
+ UID=590,OBJECTID=1105,NameExpedition="PC9",Name="PC9",Number="40","Swap Id"=-1,Type=Passive,Order=39,"Is No Connect"=False,
+E1002|-1|1085|1105||
+O1106|.|0x3|U4/PA8
+ UID=591,OBJECTID=1106,NameExpedition="PA8",Name="PA8",Number="41","Swap Id"=-1,Type=Passive,Order=40,"Is No Connect"=False,
+E1003|-1|1085|1106||
+E1004|-1|1085|936||
+E1005|-1|1085|862||
+E1006|-1|1085|670||
+E1007|-1|1085|667||
+E1008|-1|1085|965||
+E1009|-1|1085|729||
+E1010|-1|1085|798||
+E1011|-1|1085|939||
+O1107|.|0x3|U4/TDI/PA15
+ UID=600,OBJECTID=1107,NameExpedition="TDI/PA15",Name="TDI/PA15",Number="50","Swap Id"=-1,Type=Passive,Order=49,"Is No Connect"=False,
+E1012|-1|1085|1107||
+E1013|-1|1085|702||
+E1014|-1|1085|693||
+E1015|-1|1085|567||
+E1016|-1|1085|564||
+E1017|-1|1085|561||
+E1018|-1|1085|551||
+E1019|-1|1085|558||
+E1020|-1|1085|920||
+E1021|-1|1085|889||
+E1022|-1|1085|892||
+E1023|-1|1085|903||
+E1024|-1|1085|900||
+E1025|-1|1085|738||
+E1026|-1|1085|799||
+O1108|$|0x3|J7
+ UID=1269,OBJECTID=1108,Name="INS15311059",ID=1269,Reference="J7","Part Reference"="J7",Value="CON12",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="CON6X2_2_54",
+E1027|-1|15|1108||
+E1028|-1|1108|923||
+E1029|-1|1108|922||
+E1030|-1|1108|553||
+E1031|-1|1108|554||
+E1032|-1|1108|563||
+E1033|-1|1108|566||
+E1034|-1|1108|703||
+E1035|-1|1108|560||
+E1036|-1|1108|694||
+O1109|.|0x3|J7/10
+ UID=1279,OBJECTID=1109,NameExpedition="10",Name="10",Number="10","Swap Id"=-1,Type=Passive,Order=9,"Is No Connect"=False,
+E1037|-1|1108|1109||
+E1038|-1|1108|550||
+E1039|-1|1108|557||
+O1110|$|0x3|Q1
+ UID=407,OBJECTID=1110,Name="INS15033533",ID=407,Reference="Q1","Part Reference"="Q1",Value="8550",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="sot23_8550",
+E1040|-1|15|1110||
+E1041|-1|1110|917||
+E1042|-1|1110|874||
+E1043|-1|1110|910||
+O1111|$|0x3|D4
+ UID=967,OBJECTID=1111,Name="INS15133424",ID=967,Reference="D4","Part Reference"="D4",Value="LED_G",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="LED0603",
+E1044|-1|15|1111||
+E1045|-1|1111|913||
+E1046|-1|1111|758||
+O1112|$|0x3|R3
+ UID=955,OBJECTID=1112,Name="INS15132314",ID=955,Reference="R3","Part Reference"="R3",Value="1k",Primitive=DEFAULT,"Implementation Type"=<none>,"PCB Footprint"="R0603",
+E1047|-1|15|1112||
+E1048|-1|1112|860||
+E1049|-1|1112|899||

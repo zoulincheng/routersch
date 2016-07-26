@@ -1,0 +1,14 @@
+Assembly Option Service has detected inproper attribute values
+
+Wed Apr 29 15:40:33 2015
+
+Current Job : Untitled
+
+
+Format:
+OBJ_NAME
+OLD_VALUE{EMPTY;TOO_LONG}
+NEW_VALUE{DELETED;TOO_LONG}
+RESUME
+
+

@@ -1,0 +1,181 @@
+(ExpressProject "wireless"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\wireless.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    ([DRC0038] _Visible_unconnected_Power_Pins_are_connected_to_global_nets
+       "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File
+       "D:\工作资料\电力II型采集器\20151204电路原理图\20151204_rf广州中能_全盛壳体\wiress.drc")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    ([DRC0038] _Visible_unconnected_Power_Pins_are_connected_to_global_nets
+       "FALSE")
+    ([DRC0038] _Visible_unconnected_Power_Pins_are_connected_to_global_nets
+       "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "D:\工作资料\电力II型采集器\20151204电路原理图\20151204_rf广州中能_全盛壳体\WIRELESS.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tPCB Footprint")
+    (BOM_Include_File
+       "H:\工作资料\无线自组网项目\电路原理图\无线模块SCH_PCB20140423\WIRELESS.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE")
+    ([DRC0038] _Visible_unconnected_Power_Pins_are_connected_to_global_nets
+       "FALSE")
+    ([DRC0038] _Visible_unconnected_Power_Pins_are_connected_to_global_nets
+       "FALSE")
+    ([DRC0038] _Visible_unconnected_Power_Pins_are_connected_to_global_nets
+       "FALSE"))
+  (Folder "Outputs"
+    (File ".\wiress.drc"
+      (Type "Report"))
+    (File "..\无线模块sch_pcb20140423\wireless.bom"
+      (Type "Report"))
+    (File ".\wireless.bom"
+      (Type "Report"))
+    (File
+       "d:\工作资料\电力ii型采集器\20151204电路原理图\20151204_rf广州中能_全盛壳体\wiress.drc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "G:\ORCAD10_3\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON4
+      (FullPartName "CON4.Normal")
+      (LibraryName "G:\ORCAD10_3\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName "G:\ORCAD10_3\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON6
+      (FullPartName "CON6.Normal")
+      (LibraryName "G:\ORCAD10_3\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (2N1069
+      (FullPartName "2N1069.Normal")
+      (LibraryName "G:\ORCAD10_3\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (SI4432
+      (FullPartName "SI4432.Normal")
+      (LibraryName "G:\ORCADLIB\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0"))
+    (GND_EARTH
+      (LibraryName "G:\ORCAD10_3\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TP
+      (FullPartName "TP.Normal")
+      (LibraryName "G:\ORCADLIB\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0"))
+    ("LED BI-COLOUR"
+      (FullPartName "LED BI-COLOUR.Normal")
+      (LibraryName "G:\ORCAD10_3\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (T_CLED
+      (FullPartName "T_CLED.Normal")
+      (LibraryName "G:\ORCADLIB\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0"))
+    (OPF321A
+      (FullPartName "OPF321A.Normal")
+      (LibraryName "G:\ORCAD10_3\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (OPF340C
+      (FullPartName "OPF340C.Normal")
+      (LibraryName "G:\ORCAD10_3\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "E:\ORCAD10.3\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (2RM
+      (FullPartName "2RM.Normal")
+      (LibraryName "G:\ORCADLIB\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName "G:\ORCAD10_3\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (MB6S
+      (FullPartName "MB6S.Normal")
+      (LibraryName "G:\ORCADLIB\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0"))
+    (VR
+      (FullPartName "VR.Normal")
+      (LibraryName "G:\ORCADLIB\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0"))
+    (MF-USMF020
+      (FullPartName "MF-USMF020.Normal")
+      (LibraryName "F:\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0"))
+    ("TRNSFMR SP-68"
+      (FullPartName "TRNSFMR SP-68.Normal")
+      (LibraryName "G:\ORCAD10_3\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (SMA
+      (FullPartName "SMA.Normal")
+      (LibraryName "G:\ORCADLIB\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "G:\ORCAD10_3\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (UPG2214TB
+      (FullPartName "UPG2214TB.Normal")
+      (LibraryName "G:\ORCADLIB\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0"))
+    (CON10
+      (FullPartName "CON10.Normal")
+      (LibraryName "G:\ORCAD10_3\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (SMBJ6.0CA
+      (FullPartName "SMBJ6.0CA.Normal")
+      (LibraryName "G:\ORCADLIB\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0"))
+    (PS2051
+      (FullPartName "PS2051.Normal")
+      (LibraryName "G:\ORCADLIB\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 1 0 920 -4 -30 0 200 0 398"))
+      (Tab 0)))
+  (LastUsedLibraryBrowseDirectory "G:\orcad10_3\library"))
