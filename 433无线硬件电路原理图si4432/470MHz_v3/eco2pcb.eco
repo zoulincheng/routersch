@@ -1,0 +1,13 @@
+*PADS-ECO-V3.0-MILS*
+*REMARK*  old file: D:\工作资料\433无~1\470MHZ~1\ppcbnet.asc
+*REMARK*  new file: D:\工作资料\433无~1\470MHZ~1\WIRELESS4432.asc
+*REMARK*  created by ECOGEN (Version 6.0g) on 2015-10-10 15:34:01
+*DELPIN*
+R3.1  LED
+U1.41  LED
+*NET*
+*SIGNAL*  LED
+R3.1  U1.50
+
+*REMARK*  Deleted pins: 2,  Added pins: 2
+*END*

@@ -1,0 +1,23 @@
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Nets
+WARNING:  [DRC0006]  Net has fewer than two connections JTDI
+                    SCHEMATIC1, hwwireless  (132.08, 71.12) 
+WARNING:  [DRC0006]  Net has fewer than two connections JTDO
+                    SCHEMATIC1, hwwireless  (132.08, 58.42) 
+WARNING:  [DRC0006]  Net has fewer than two connections NJRST
+                    SCHEMATIC1, hwwireless  (132.08, 55.88) 
+WARNING:  [DRC0006]  Net has fewer than two connections NRST
+                    SCHEMATIC1, hwwireless  (71.12, 50.80) 
+
+Checking for Invalid References
+
+Checking for Duplicate References
+
+Check Bus width mismatch

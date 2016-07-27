@@ -1,0 +1,105 @@
+(ExpressProject "wireless4432"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\wireless4432.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    ([DRC0038] _Visible_unconnected_Power_Pins_are_connected_to_global_nets
+       "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File
+       "D:\工作资料\433无线硬件电路原理图SI4432\433MHZ_20150923\WIRELESS4432.DRC")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "D:\工作资料\433无线硬件电路原理图SI4432\433MHZ_20150923\WIRELESS4432.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t\t{Reference}\t\t{Value}\t\t{PCB Footprint}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tPCBFootprint")
+    (BOM_Include_File
+       "D:\工作资料\433无线硬件电路原理图SI4432\433MHZ_20150923\WIRELESS4432.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\wireless4432.drc"
+      (Type "Report"))
+    (File ".\wireless4432.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (CON5
+      (FullPartName "CON5.Normal")
+      (LibraryName "D:\ORCAD10_3\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON20
+      (FullPartName "CON20.Normal")
+      (LibraryName "D:\ORCAD10_3\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON8
+      (FullPartName "CON8.Normal")
+      (LibraryName "G:\ORCAD10_3\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON32
+      (FullPartName "CON32.Normal")
+      (LibraryName "D:\ORCAD10_3\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON4
+      (FullPartName "CON4.Normal")
+      (LibraryName "G:\ORCAD10_3\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "D:\orcad10_3\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\工作资料\433无线硬件电路原理图si4432\433MHz_20150923\wireless4432.dsn")
+      (Path "Design Resources"
+         "D:\工作资料\433无线硬件电路原理图si4432\433MHz_20150923\wireless4432.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "D:\工作资料\433无线硬件电路原理图si4432\433MHz_20150923\wireless4432.dsn"
+         "SCHEMATIC1" "SI4432"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -30 0 200 0 627"))
+      (Tab 0))
+    (Doc
+      (Type "TextFile")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 132 1803 174 835"))
+      (Path
+         "D:\工作资料\433无线硬件电路原理图si4432\433MHz_20150923\wireless4432.bom")
+      (Scroll "0"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 176 1876 232 893")
+        (Scroll "0 0")
+        (Zoom "78")
+        (Occurrence "/"))
+      (Path
+         "D:\工作资料\433无线硬件电路原理图SI4432\433MHZ_20150923\WIRELESS4432.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "SI4432"))))

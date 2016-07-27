@@ -1,0 +1,38 @@
+*PADS-ECO-V3.0-MILS*
+*REMARK*  old file: D:\工作资料\433无~3\433M_M~1\ppcbnet.asc
+*REMARK*  new file: D:\工作资料\433无~3\433M_M~1\433MBOARD.asc
+*REMARK*  created by ECOGEN (Version 6.0g) on 2015-9-28 16:03:28
+
+PART DIFFERENCES
+----------------
+OLD DESIGN                                        NEW DESIGN
+Ref-des	Part-type:Decal                           Ref-des	Part-type:Decal
+<none>                                            SW1   SW_6X6X5MM
+
+NET DIFFERENCES
+----------------
+OLD DESIGN                                        NEW DESIGN
+
+SWAPPED GATE DIFFERENCES
+------------------------
+OLD DESIGN                                        NEW DESIGN
+
+SWAPPED PIN DIFFERENCES
+------------------------
+OLD DESIGN                                        NEW DESIGN
+
+
+UNMATCHED NET PINS IN OLD DESIGN
+--------------------------------
+
+UNMATCHED NET PINS IN NEW DESIGN
+--------------------------------
+GND                 SW1.3	
+NRST                SW1.1	
+
+ATTRIBUTE DIFFERENCES
+---------------------
+Attribute Level	[ OLD DESIGN Parent -> NEW DESIGN Parent ]
+
+          Attribute Name           Old Value                New Value
+

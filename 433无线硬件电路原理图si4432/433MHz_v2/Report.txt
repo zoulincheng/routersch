@@ -1,0 +1,146 @@
+*PADS-ECO-V3.0-MILS*
+*REMARK*  old file: D:\工作资料\433无~1\433MHZ~2\ppcbnet.asc
+*REMARK*  new file: D:\工作资料\433无~1\433MHZ~2\WIRELESS4432.asc
+*REMARK*  created by ECOGEN (Version 6.0g) on 2015-9-25 16:40:08
+
+PART DIFFERENCES
+----------------
+OLD DESIGN                                        NEW DESIGN
+Ref-des	Part-type:Decal                           Ref-des	Part-type:Decal
+C26   C0402                                       <none>
+C27   C0402                                       C18   C0402
+C28   C0402                                       <none>
+C29   C0402                                       <none>
+C30   C0402                                       C20   C0402
+C31   C0402                                       C22   C0402
+C32   C0402                                       C17   C0402
+C33   C0402                                       C12   C0402
+L1   R0402                                        <none>
+L2   R0402                                        <none>
+L3   R0402                                        <none>
+L7   R0402                                        <none>
+L8   R0402                                        <none>
+L9   R0402                                        <none>
+R4   R0402                                        <none>
+Y1   Y5032                                        Y1   30M_3225
+<none>                                            C11   C0402
+<none>                                            C13   C0402
+<none>                                            C14   C0402
+<none>                                            C15   C0402
+<none>                                            C16   C0402
+<none>                                            C19   C0402
+<none>                                            C21   C0402
+<none>                                            C23   C0402
+<none>                                            C24   C0402
+<none>                                            L1   R0402
+<none>                                            L2   R0402
+<none>                                            L3   R0402
+<none>                                            R4   R0402
+<none>                                            R5   R0402
+<none>                                            FB2   R0603
+<none>                                            U3   UPG2214TB
+
+NET DIFFERENCES
+----------------
+OLD DESIGN                                        NEW DESIGN
+4438_SDI                                          4432_SDI
+4438_SDO                                          4432_SDO
+N14870633                                         N14787012
+N14870741                                         N14787128
+N14898953                                         N14793072
+N14907678                                         N14793448
+N14921146                                         N14793160
+<none>                                            4432_NIRQ
+<none>                                            4432_NSEL
+<none>                                            4432_SCLK
+<none>                                            4432_SDN
+<none>                                            N14793032
+<none>                                            N14793116
+<none>                                            N14793120
+<none>                                            N14793224
+<none>                                            N14793308
+<none>                                            N14793336
+<none>                                            N14793370
+<none>                                            N14793394
+<none>                                            N14793402
+<none>                                            N14793406
+<none>                                            N14793712
+<none>                                            N14794022
+<none>                                            N14794102
+<none>                                            N14794112
+<none>                                            RF_SW1
+<none>                                            RF_SW2
+
+SWAPPED GATE DIFFERENCES
+------------------------
+OLD DESIGN                                        NEW DESIGN
+
+SWAPPED PIN DIFFERENCES
+------------------------
+OLD DESIGN                                        NEW DESIGN
+
+
+UNMATCHED NET PINS IN OLD DESIGN
+--------------------------------
+4438_NIRQ           U2.11	U1.37	
+4438_NSEL           U2.15	U1.33	
+4438_SCLK           U2.12	U1.34	
+4438_SDN            L2.1	U1.38	
+N14888807           Y2.1	U2.16	
+N14889857           U2.17	Y2.2	
+N14892310           L3.2	U2.20	
+N14893983           U2.19	L4.2	
+N14897329           U2.1	L2.2	
+N14898953           L1.2	U2.2	
+N14907377           L1.1	C26.2	U2.3	
+N14907678           C29.1	C26.1	L7.2	
+N14910349           L9.1	L8.2	U2.4	
+N14916155           L8.1	C29.2	
+N14921146           L7.1	
+N14924951           C30.1	L6.1	C28.2	
+N14933259           C28.1	J4.1	
+OSC_I               Y1.2	
+SI4438_GPIO0        U1.40	U2.9	
+SI4438_GPIO1        U2.10	U1.39	
+SI4438_GPIO2        L4.1	U1.25	
+SI4438_GPIO3        L3.1	U1.24	
+VDD_RF              R4.1	U2.6	U2.8	
+VDD_RF_TX           C33.2	L9.2	R4.2	
+
+UNMATCHED NET PINS IN NEW DESIGN
+--------------------------------
+4432_NIRQ           U2.17	U1.37	
+4432_NSEL           U2.16	U1.33	
+4432_SCLK           U2.15	U1.34	
+4432_SDN            U2.20	U1.38	
+GND                 Y1.2	Y1.4	
+GND_EARTH           C19.2	C24.2	C23.2	C16.2	R4.2	U3.2	
+N14793032           Y2.1	U2.19	
+N14793072           J4.1	
+N14793116           L6.1	C21.1	U2.3	
+N14793120           R5.1	L1.2	
+N14793160           U2.4	
+N14793224           C11.2	L3.2	L2.2	C13.2	
+N14793308           C24.1	C23.1	U2.10	
+N14793336           C11.1	L2.1	R4.1	
+N14793370           C14.1	L4.1	
+N14793394           U3.1	C21.2	
+N14793402           C16.1	L3.1	L4.2	
+N14793406           C15.1	U3.5	
+N14793448           C15.2	
+N14793712           C19.1	U2.12	FB2.2	
+N14794022           L1.1	C13.1	U2.2	
+N14794102           U2.18	Y2.2	
+N14794112           C14.2	U3.3	
+OSC_I               Y1.3	
+RF_SW1              C20.1	U3.6	U2.9	
+RF_SW2              C12.2	U3.4	U2.8	
+V3_3                FB2.1	
+VDD_RF              U2.1	R5.2	
+
+ATTRIBUTE DIFFERENCES
+---------------------
+Attribute Level	[ OLD DESIGN Parent -> NEW DESIGN Parent ]
+
+          Attribute Name           Old Value                New Value
+

@@ -1,0 +1,78 @@
+(ExpressProject "hwwireless"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\hwwireless.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    ([DRC0038] _Visible_unconnected_Power_Pins_are_connected_to_global_nets
+       "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File
+       "D:\工作资料\电力II型采集器\20160127集中器无线模块_全盛\HWWIRELESS.DRC")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE"))
+  (Folder "Outputs"
+    (File ".\hwwireless.drc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (CON4
+      (FullPartName "CON4.Normal")
+      (LibraryName "G:\ORCAD10_3\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON5
+      (FullPartName "CON5.Normal")
+      (LibraryName "D:\ORCAD10_3\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "D:\ORCAD10_3\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CON26A
+      (FullPartName "CON26A.Normal")
+      (LibraryName "D:\ORCAD10_3\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON20A
+      (FullPartName "CON20A.Normal")
+      (LibraryName "D:\ORCAD10_3\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\工作资料\电力台区识别仪\20160401_sch_pcb\hwwireless.dsn")
+      (Path "Design Resources"
+         "D:\工作资料\电力台区识别仪\20160401_sch_pcb\hwwireless.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "D:\工作资料\电力台区识别仪\20160401_sch_pcb\hwwireless.dsn"
+         "SCHEMATIC1" "hwwireless"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 160 920 -4 -30 0 200 0 627"))
+      (Tab 0))))

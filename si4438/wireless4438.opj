@@ -1,0 +1,81 @@
+(ExpressProject "wireless4438"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "D:\myorcadlib\myorcad.OLB"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\wireless4438.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    ([DRC0038] _Visible_unconnected_Power_Pins_are_connected_to_global_nets
+       "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File
+       "D:\工作资料\433无线硬件电路原理图SI4438\SI4438_20150923\WIRELESS4438.DRC")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "D:\工作资料\433无线硬件电路原理图SI4438\SI4438_20150923\WIRELESS4438.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tPCB Footprint")
+    (BOM_Include_File
+       "D:\工作资料\433无线硬件电路原理图SI4438\SI4438_20150923\WIRELESS4438.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\wireless4438.drc"
+      (Type "Report"))
+    (File ".\wireless4438.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\工作资料\433无线硬件电路原理图si4438\si4438_20150923\wireless4438.dsn")
+      (Path "Design Resources"
+         "D:\工作资料\433无线硬件电路原理图si4438\si4438_20150923\wireless4438.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "D:\myorcadlib\myorcad.OLB")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "D:\工作资料\433无线硬件电路原理图si4438\si4438_20150923\wireless4438.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 160 920 -4 -30 0 200 0 627"))
+      (Tab 0)))
+  (PartMRUSelector
+    (si4438
+      (FullPartName "si4438.Normal")
+      (LibraryName "D:\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0"))))

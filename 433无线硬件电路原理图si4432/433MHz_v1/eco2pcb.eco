@@ -1,0 +1,12 @@
+*PADS-ECO-V3.0-MILS*
+*REMARK*  old file: D:\工作资料\433无~1\433MHZ~1\ppcbnet.asc
+*REMARK*  new file: D:\工作资料\433无~1\433MHZ~1\WIRELESS4432.asc
+*REMARK*  created by ECOGEN (Version 6.0g) on 2015-9-25 11:22:10
+*CHGPART*
+J4  IPEX_20279_001E_01  SMA_TH_5_08MM
+*NET*
+*SIGNAL*  GND_EARTH
+J4.4  J4.5
+
+*REMARK*  Deleted pins: 0,  Added pins: 2
+*END*

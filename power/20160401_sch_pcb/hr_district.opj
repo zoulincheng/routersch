@@ -1,0 +1,62 @@
+(ExpressProject "hr_district"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\hr_district.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    ([DRC0038] _Visible_unconnected_Power_Pins_are_connected_to_global_nets
+       "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File
+       "D:\工作资料\电力台区识别仪\20160401_SCH_PCB\HR_DISTRICT.DRC")
+    ([DRC0038] _Visible_unconnected_Power_Pins_are_connected_to_global_nets
+       "FALSE"))
+  (Folder "Outputs"
+    (File ".\hr_district.drc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (CON9
+      (FullPartName "CON9.Normal")
+      (LibraryName "D:\ORCAD10_3\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON7
+      (FullPartName "CON7.Normal")
+      (LibraryName "D:\ORCAD10_3\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (WQ2516CV
+      (FullPartName "WQ2516CV.Normal")
+      (LibraryName "D:\MYORCADLIB\MYORCAD.OLB")
+      (DeviceIndex "0"))
+    (CON5
+      (FullPartName "CON5.Normal")
+      (LibraryName "D:\ORCAD10_3\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 1 0 920 -4 -30 0 200 0 627"))
+      (Tab 0)))
+  (LastUsedLibraryBrowseDirectory "D:\myorcadlib"))

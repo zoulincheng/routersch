@@ -1,0 +1,17 @@
+*PADS-ECO-V3.0-MILS*
+*REMARK*  old file: D:\工作资料\电力台~1\201604~1\ppcbnet.asc
+*REMARK*  new file: D:\工作资料\电力台~1\201604~1\HR_DISTRICT.asc
+*REMARK*  created by ECOGEN (Version 6.0g) on 2016-4-5 16:00:23
+*DELPIN*
+J9.4  USART2_TX
+J9.5  USART2_RX
+U1.16  USART2_TX
+U1.17  USART2_RX
+*NET*
+*SIGNAL*  USART2_RX
+U1.17  J9.4
+*SIGNAL*  USART2_TX
+U1.16  J9.5
+
+*REMARK*  Deleted pins: 4,  Added pins: 4
+*END*

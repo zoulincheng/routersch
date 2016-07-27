@@ -1,0 +1,103 @@
+(ExpressProject "EFM32LG230F128"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\efm32lg230f128.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    ([DRC0038] _Visible_unconnected_Power_Pins_are_connected_to_global_nets
+       "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File
+       "D:\工作资料\20151110_EFM32_PLANTFORM\EFM32LG230F128_SCH_PCB\20151110\EFM32LG230F128.DRC")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "D:\工作资料\20151110_EFM32_PLANTFORM\EFM32LG230F128_SCH_PCB\20151110\EFM32LG230F128.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{PCB Footprint}")
+    (BOM_Header "Item\tQuantity\tReference\tPart\tPCB Footprint")
+    (BOM_Include_File
+       "D:\工作资料\20151110_EFM32_PLANTFORM\EFM32LG230F128_SCH_PCB\20151110\EFM32LG230F128.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "FALSE")
+    (BOM_View_Output "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    ([DRC0038] _Visible_unconnected_Power_Pins_are_connected_to_global_nets
+       "FALSE")
+    ([DRC0038] _Visible_unconnected_Power_Pins_are_connected_to_global_nets
+       "FALSE")
+    ([DRC0038] _Visible_unconnected_Power_Pins_are_connected_to_global_nets
+       "FALSE")
+    ([DRC0038] _Visible_unconnected_Power_Pins_are_connected_to_global_nets
+       "FALSE"))
+  (Folder "Outputs"
+    (File ".\efm32lg230f128.drc"
+      (Type "Report"))
+    (File ".\efm32lg230f128.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (EFM32LG230F128
+      (FullPartName "EFM32LG230F128D.Normal")
+      (LibraryName
+         "D:\工作资料\20151110_EFM32_PLANTFORM\AN0002_EFM32_HARDWARE_DESIGN_CONSIDERATIONS\ORCAD_OLB_SYMBOLS\EFM32LG230F128.OLB")
+      (DeviceIndex "3")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 160 920 -4 -30 0 200 0 627"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 0 920 -4 -30 0 1700 0 661")
+        (Scroll "0 0")
+        (Zoom "78")
+        (Occurrence "/"))
+      (Path
+         "D:\工作资料\20151110_EFM32_PLANTFORM\EFM32LG230F128_SCH_PCB\20151110\EFM32LG230F128.DSN")
+      (Schematic "MCU_EFM32LG230F128")
+      (Page "Power_Decoupling"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -30 176 1876 232 893")
+        (Scroll "0 0")
+        (Zoom "156")
+        (Occurrence "/"))
+      (Path
+         "D:\工作资料\20151110_EFM32_PLANTFORM\EFM32LG230F128_SCH_PCB\20151110\EFM32LG230F128.DSN")
+      (Schematic "MCU_EFM32LG230F128")
+      (Page "MCU_IO")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\工作资料\20151110_EFM32_PLANTFORM\an0002_efm32_hardware_design_considerations\OrCad_olb_Symbols"))

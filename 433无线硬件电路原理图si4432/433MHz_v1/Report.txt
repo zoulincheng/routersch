@@ -1,0 +1,37 @@
+*PADS-ECO-V3.0-MILS*
+*REMARK*  old file: D:\工作资料\433无~1\433MHZ~1\ppcbnet.asc
+*REMARK*  new file: D:\工作资料\433无~1\433MHZ~1\WIRELESS4432.asc
+*REMARK*  created by ECOGEN (Version 6.0g) on 2015-9-25 11:22:10
+
+PART DIFFERENCES
+----------------
+OLD DESIGN                                        NEW DESIGN
+Ref-des	Part-type:Decal                           Ref-des	Part-type:Decal
+J4   IPEX_20279_001E_01                           J4   SMA_TH_5_08MM
+
+NET DIFFERENCES
+----------------
+OLD DESIGN                                        NEW DESIGN
+
+SWAPPED GATE DIFFERENCES
+------------------------
+OLD DESIGN                                        NEW DESIGN
+
+SWAPPED PIN DIFFERENCES
+------------------------
+OLD DESIGN                                        NEW DESIGN
+
+
+UNMATCHED NET PINS IN OLD DESIGN
+--------------------------------
+
+UNMATCHED NET PINS IN NEW DESIGN
+--------------------------------
+GND_EARTH           J4.4	J4.5	
+
+ATTRIBUTE DIFFERENCES
+---------------------
+Attribute Level	[ OLD DESIGN Parent -> NEW DESIGN Parent ]
+
+          Attribute Name           Old Value                New Value
+

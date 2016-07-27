@@ -1,0 +1,18 @@
+PowerPCB ECO Generator (Version 6.0g) 2015-11-12 09:24:58
+Copyright (c) 1995-2001 Innoveda, Inc. - All rights reserved
+ASCII reading (part types and decals) - 0 msec
+ASCII reading (part types and decals) - 0 msec
+Reading the OLD DESIGN
+There are 55 parts in the design
+There are 60 signals in the design
+There are 196 pins in the design
+ASCII reading (parts, nets, attributes) - 15 msec
+Reading the NEW DESIGN
+There are 58 parts in the design
+There are 62 signals in the design
+There are 203 pins in the design
+ASCII reading (parts, nets, attributes) - 0 msec
+Final cost=368
+Partitioning - 0 msec
+Final Matching - 0 msec
+Deleted pins: 2,  Added pins: 9

@@ -1,0 +1,12 @@
+** ECO In Report **
+
+Mon Sep 28 14:16:18 2015
+
+Input  File : D:\工作资料\433无~3\433M_M~1\eco2pcb.eco
+Current Job : Untitled
+
+
+
+Line 6 , Section *CHGPART*
+J9  CON4_2MM  CON4_2_54MM
+* Failed to get CON4_2_54MM from library

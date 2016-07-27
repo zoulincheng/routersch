@@ -1,0 +1,296 @@
+*PADS-ECO-V3.0-MILS*
+*REMARK*  old file: D:\工作资料\433无~2\SI4438~1\ppcbnet.asc
+*REMARK*  new file: D:\工作资料\433无~2\SI4438~1\WIRELESS4438.asc
+*REMARK*  created by ECOGEN (Version 6.0g) on 2015-12-4 10:07:44
+
+PART DIFFERENCES
+----------------
+OLD DESIGN                                        NEW DESIGN
+Ref-des	Part-type:Decal                           Ref-des	Part-type:Decal
+D1   1206_DIODE                                   D1   LED0603
+VR1   20D681K                                     <none>
+GDT1   2RM600                                     <none>
+U3   AMS1117                                      <none>
+U4   AMS1117                                      <none>
+C11   C0603                                       <none>
+C14   C0603                                       <none>
+C15   C0603                                       <none>
+C16   C0603                                       <none>
+C3   C0603                                        <none>
+C6   C0603                                        <none>
+C9   C0603                                        <none>
+C1   CD_7_2_1                                     C30   C0402
+C12   CD_7_2_1                                    <none>
+C2   CD_7_2_1                                     <none>
+C7   CD_7_2_1                                     <none>
+J15   CON2_2_54MM                                 <none>
+J2   CON8_2_54                                    <none>
+J1   CON8_5_08_2_54                               J1   JTAG_16X2
+U1   MB6S                                         <none>
+U2   MB6S                                         U2   SI4432_B9S
+R1   R0603                                        <none>
+R10   R0603                                       <none>
+R11   R0603                                       <none>
+R12   R0603                                       <none>
+R13   R0603                                       <none>
+R14   R0603                                       <none>
+R15   R0603                                       FB1   R0603
+R16   R0603                                       <none>
+R17   R0603                                       <none>
+R2   R0603                                        <none>
+R3   R0603                                        <none>
+R4   R0603                                        R4   R0402
+R5   R0603                                        <none>
+R6   R0603                                        <none>
+R7   R0603                                        <none>
+R8   R0603                                        <none>
+R9   R0603                                        <none>
+C13   SCDK5R5334                                  C31   C0402
+TVS2   SMBJ6_0                                    <none>
+U7   SOP8                                         <none>
+Q1   SOT23_8550                                   <none>
+Q2   SOT23_8550                                   <none>
+Q3   SOT23_8550                                   <none>
+U5   TPL291                                       <none>
+U6   TPL291                                       <none>
+U8   TPL291                                       <none>
+U9   TPL291                                       <none>
+PPTC3   ZM6                                       <none>
+T1   ZN35180BA3                                   <none>
+<none>                                            Y3   30M_3225
+<none>                                            C10   C0402
+<none>                                            C26   C0402
+<none>                                            C27   C0402
+<none>                                            C28   C0402
+<none>                                            C29   C0402
+<none>                                            C32   C0402
+<none>                                            C33   C0402
+<none>                                            C8   C0402
+<none>                                            C9   C0402
+<none>                                            C1   C0603
+<none>                                            C2   C0603
+<none>                                            C25   C0603
+<none>                                            C3   C0603
+<none>                                            C4   C0603
+<none>                                            C5   C0603
+<none>                                            C6   C0603
+<none>                                            C7   C0603
+<none>                                            J2   CON2_2MM
+<none>                                            J3   CON4_2MM
+<none>                                            J5   JTAG_10X2
+<none>                                            L1   R0402
+<none>                                            L2   R0402
+<none>                                            L3   R0402
+<none>                                            L4   R0402
+<none>                                            L5   R0402
+<none>                                            L6   R0402
+<none>                                            L7   R0402
+<none>                                            L8   R0402
+<none>                                            L9   R0402
+<none>                                            FB3   R0603
+<none>                                            FB4   R0603
+<none>                                            R1   R0603
+<none>                                            R2   R0603
+<none>                                            R3   R0603
+<none>                                            J4   SMA_TH_5_08MM
+<none>                                            U1   STM32_LQFP64
+<none>                                            Y2   Y5032
+
+NET DIFFERENCES
+----------------
+OLD DESIGN                                        NEW DESIGN
+MCU_G                                             GND_EARTH
+R485DI                                            VDD_RF
+<none>                                            4438_NIRQ
+<none>                                            4438_NSEL
+<none>                                            4438_SCLK
+<none>                                            4438_SDI
+<none>                                            4438_SDN
+<none>                                            4438_SDO
+<none>                                            ADC_IN10
+<none>                                            ADC_IN11
+<none>                                            ADC_IN12
+<none>                                            BOOT0
+<none>                                            GND
+<none>                                            I2C1_SCL
+<none>                                            I2C1_SDA
+<none>                                            I2C1_SMBAI
+<none>                                            I2C2_SCL
+<none>                                            I2C2_SDA
+<none>                                            JTCK
+<none>                                            JTDI
+<none>                                            JTDO
+<none>                                            JTMS
+<none>                                            LED
+<none>                                            MCU_RXD
+<none>                                            MCU_TXD
+<none>                                            N14870633
+<none>                                            N14870741
+<none>                                            N14888807
+<none>                                            N14889857
+<none>                                            N14892310
+<none>                                            N14893983
+<none>                                            N14897329
+<none>                                            N14898953
+<none>                                            N14907377
+<none>                                            N14907678
+<none>                                            N14910349
+<none>                                            N14916155
+<none>                                            N14921146
+<none>                                            N14924951
+<none>                                            N14933259
+<none>                                            NJRST
+<none>                                            NRST
+<none>                                            OSC_I
+<none>                                            OSC_O
+<none>                                            PB1_CS
+<none>                                            PB8_IO
+<none>                                            PB9_IO
+<none>                                            PC11_IO
+<none>                                            PC12_IO
+<none>                                            SI4438_GPIO0
+<none>                                            SI4438_GPIO1
+<none>                                            SI4438_GPIO2
+<none>                                            SI4438_GPIO3
+<none>                                            SPI1_MISO
+<none>                                            SPI1_MOSI
+<none>                                            SPI1_NSS
+<none>                                            SPI1_SCK
+<none>                                            USART2_RX
+<none>                                            USART2_TX
+<none>                                            V3_3
+<none>                                            VDD_RF_TX
+
+SWAPPED GATE DIFFERENCES
+------------------------
+OLD DESIGN                                        NEW DESIGN
+
+SWAPPED PIN DIFFERENCES
+------------------------
+OLD DESIGN                                        NEW DESIGN
+
+
+UNMATCHED NET PINS IN OLD DESIGN
+--------------------------------
+485_AP              R5.1	TVS2.2	J1.3	U7.6	
+485_B               TVS2.1	PPTC3.1	R12.2	U7.7	
+485_BP              PPTC3.2	J1.4	
+485_G               U4.1	C15.1	R12.1	C2.2	C12.2	C9.2	
+                    C16.2	U6.2	U9.2	C11.2	C14.2	R13.2	U5.3	
+                    U2.4	U7.5	J1.7	
+AC1_A               U2.2	T1.7	
+AC1_B               U2.1	T1.6	
+AC2_A               U1.1	T1.9	
+AC2_B               T1.10	U1.2	
+IN_1                R16.1	J2.4	U9.4	
+IN_2                R7.1	U6.4	J2.5	
+L                   GDT1.1	T1.1	J1.1	VR1.2	
+MCU_G               U3.1	J15.1	C7.2	C3.2	C6.2	J15.2	
+                    U6.3	U9.3	U8.3	U1.4	J2.6	J2.7	
+N                   VR1.1	GDT1.2	J1.2	T1.5	
+N14520688           D1.1	R1.2	
+N14676893           U5.1	R6.2	
+N14677107           U7.1	U8.2	
+N14677179           C14.1	Q1.1	R8.2	
+N14677211           U6.1	Q1.3	
+N14677273           R10.1	U8.1	
+N14677471           R15.1	Q2.1	
+N14677489           Q3.1	C16.1	R17.2	
+N14677703           Q3.2	R14.2	
+N14677947           Q1.2	R3.2	
+N14677963           U9.1	Q3.3	
+PLUSE_1             R11.1	R17.1	J1.6	
+PLUSE_2             R2.1	R8.1	J1.5	
+R485DI              U7.4	U5.4	
+RX0_TX1             R13.1	U7.2	U7.3	Q2.3	
+USART2_RX           R9.2	J2.2	U8.4	
+USART2_TX           J2.1	U5.2	
+V3_3MCU             C6.1	C3.1	C7.1	R1.1	R6.1	R9.1	
+                    U3.2	R16.2	R7.2	J2.8	
+V485                C11.1	C12.1	C9.1	R14.1	R3.1	U4.2	
+                    R11.2	R5.2	Q2.2	R2.2	C15.2	R4.2	R10.2	
+                    J1.8	U7.8	
+V6V_485             C2.1	U4.3	U2.3	
+V6V_MCU             C1.1	U1.3	U3.3	
+VBAT                C13.1	D1.2	J2.3	
+
+UNMATCHED NET PINS IN NEW DESIGN
+--------------------------------
+4438_NIRQ           U2.11	U1.37	
+4438_NSEL           U2.15	U1.33	
+4438_SCLK           U2.12	U1.34	
+4438_SDI            U2.14	U1.36	
+4438_SDN            L2.1	U1.38	
+4438_SDO            U2.13	U1.35	
+ADC_IN10            J1.19	U1.8	
+ADC_IN11            J1.20	U1.9	
+ADC_IN12            U1.10	J1.21	
+BOOT0               R1.1	J2.1	J1.13	U1.60	
+GND                 R2.1	J5.1	FB3.1	FB4.1	J5.10	J5.11	
+                    J5.12	U1.12	J5.13	J5.14	J5.15	J1.16	J5.16	
+                    J1.17	J5.17	J5.18	U1.18	J5.19	C5.2	C4.2	
+                    C1.2	C2.2	C3.2	C6.2	R1.2	D1.2	C25.2	
+                    J5.2	Y3.2	J5.20	J5.3	U1.31	J3.4	J5.4	
+                    Y3.4	U1.47	J5.5	J5.6	U1.63	J5.7	J5.8	
+                    J5.9	
+GND_EARTH           C33.1	C8.2	C7.2	C9.2	C10.2	FB3.2	
+                    FB4.2	C27.2	C32.2	J4.2	U2.21	J4.3	J4.4	
+                    J4.5	
+I2C1_SCL            J1.11	U1.58	
+I2C1_SDA            J1.12	U1.59	
+I2C1_SMBAI          J1.10	U1.57	
+I2C2_SCL            U1.29	J1.29	
+I2C2_SDA            U1.30	J1.30	
+JTCK                J1.4	U1.49	
+JTDI                J1.5	U1.50	
+JTDO                U1.55	J1.8	
+JTMS                J1.3	U1.46	
+LED                 R3.1	U1.41	
+MCU_RXD             J3.2	J1.2	U1.43	
+MCU_TXD             J1.1	J3.3	U1.42	
+N14870633           R2.2	U1.28	
+N14870741           D1.1	R3.2	
+N14888807           Y2.1	U2.16	
+N14889857           U2.17	Y2.2	
+N14892310           L3.2	U2.20	
+N14893983           U2.19	L4.2	
+N14897329           U2.1	L2.2	
+N14898953           C27.1	U2.2	L5.2	L1.2	
+N14907377           L1.1	C26.2	U2.3	
+N14907678           C26.1	L5.1	C29.1	C32.1	L7.2	
+N14910349           L9.1	L8.2	U2.4	
+N14916155           L8.1	C29.2	
+N14921146           L7.1	C31.1	L6.2	
+N14924951           L6.1	C30.1	C28.2	
+N14933259           C28.1	J4.1	
+NJRST               U1.56	J1.9	
+NRST                J1.18	U1.7	
+OSC_I               C5.1	Y3.3	U1.5	
+OSC_O               Y3.1	C6.1	U1.6	
+PB1_CS              U1.27	J1.28	
+PB8_IO              J1.14	U1.61	
+PB9_IO              J1.15	U1.62	
+PC11_IO             U1.52	J1.7	
+PC12_IO             U1.51	J1.6	
+SI4438_GPIO0        U1.40	U2.9	
+SI4438_GPIO1        U2.10	U1.39	
+SI4438_GPIO2        L4.1	U1.25	
+SI4438_GPIO3        L3.1	U1.24	
+SPI1_MISO           U1.22	J1.26	
+SPI1_MOSI           U1.23	J1.27	
+SPI1_NSS            U1.20	J1.24	
+SPI1_SCK            U1.21	J1.25	
+USART2_RX           U1.17	J1.23	
+USART2_TX           U1.16	J1.22	
+V3_3                U1.1	C4.1	C1.1	C2.1	C3.1	J3.1	
+                    C25.1	FB1.1	U1.13	U1.19	J2.2	J1.31	J1.32	
+                    U1.32	U1.48	U1.64	
+VDD_RF              C9.1	C10.1	C7.1	C8.1	U2.6	U2.8	
+VDD_RF_TX           C33.2	L9.2	R4.2	
+
+ATTRIBUTE DIFFERENCES
+---------------------
+Attribute Level	[ OLD DESIGN Parent -> NEW DESIGN Parent ]
+
+          Attribute Name           Old Value                New Value
+

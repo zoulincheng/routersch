@@ -1,0 +1,14 @@
+*PADS-ECO-V3.0-MILS*
+*REMARK*  old file: D:\工作资料\433无~3\433M_M~1\ppcbnet.asc
+*REMARK*  new file: D:\工作资料\433无~3\433M_M~1\433MBOARD.asc
+*REMARK*  created by ECOGEN (Version 6.0g) on 2015-9-28 16:03:28
+*PART*
+SW1  SW_6X6X5MM
+*NET*
+*SIGNAL*  GND
+SW1.3
+*SIGNAL*  NRST
+SW1.1
+
+*REMARK*  Deleted pins: 0,  Added pins: 2
+*END*

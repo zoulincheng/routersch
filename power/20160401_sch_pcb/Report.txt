@@ -1,0 +1,41 @@
+*PADS-ECO-V3.0-MILS*
+*REMARK*  old file: D:\工作资料\电力台~1\201604~1\ppcbnet.asc
+*REMARK*  new file: D:\工作资料\电力台~1\201604~1\HR_DISTRICT.asc
+*REMARK*  created by ECOGEN (Version 6.0g) on 2016-4-5 16:00:23
+
+PART DIFFERENCES
+----------------
+OLD DESIGN                                        NEW DESIGN
+Ref-des	Part-type:Decal                           Ref-des	Part-type:Decal
+
+NET DIFFERENCES
+----------------
+OLD DESIGN                                        NEW DESIGN
+<none>                                            USART2_RX
+<none>                                            USART2_TX
+
+SWAPPED GATE DIFFERENCES
+------------------------
+OLD DESIGN                                        NEW DESIGN
+
+SWAPPED PIN DIFFERENCES
+------------------------
+OLD DESIGN                                        NEW DESIGN
+
+
+UNMATCHED NET PINS IN OLD DESIGN
+--------------------------------
+USART2_RX           U1.17	J9.5	
+USART2_TX           U1.16	J9.4	
+
+UNMATCHED NET PINS IN NEW DESIGN
+--------------------------------
+USART2_RX           U1.17	J9.4	
+USART2_TX           U1.16	J9.5	
+
+ATTRIBUTE DIFFERENCES
+---------------------
+Attribute Level	[ OLD DESIGN Parent -> NEW DESIGN Parent ]
+
+          Attribute Name           Old Value                New Value
+

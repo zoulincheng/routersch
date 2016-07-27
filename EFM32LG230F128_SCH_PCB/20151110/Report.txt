@@ -1,0 +1,46 @@
+*PADS-ECO-V3.0-MILS*
+*REMARK*  old file: D:\工作资料\201511~1\EFM32L~2\20151110\ppcbnet.asc
+*REMARK*  new file: D:\工作资料\201511~1\EFM32L~2\20151110\EFM32LG230F128.asc
+*REMARK*  created by ECOGEN (Version 6.0g) on 2015-11-12 09:24:58
+
+PART DIFFERENCES
+----------------
+OLD DESIGN                                        NEW DESIGN
+Ref-des	Part-type:Decal                           Ref-des	Part-type:Decal
+<none>                                            J3   IPEX_20279_001E_01
+<none>                                            R5   R0402
+<none>                                            R6   R0402
+
+NET DIFFERENCES
+----------------
+OLD DESIGN                                        NEW DESIGN
+<none>                                            N15069777
+<none>                                            N15070276
+<none>                                            N15070705
+
+SWAPPED GATE DIFFERENCES
+------------------------
+OLD DESIGN                                        NEW DESIGN
+
+SWAPPED PIN DIFFERENCES
+------------------------
+OLD DESIGN                                        NEW DESIGN
+
+
+UNMATCHED NET PINS IN OLD DESIGN
+--------------------------------
+N14999984           C3.1	J2.1	
+
+UNMATCHED NET PINS IN NEW DESIGN
+--------------------------------
+GND_EARTH           J3.2	J3.3	
+N15069777           R6.1	C3.1	R5.1	
+N15070276           J2.1	R5.2	
+N15070705           J3.1	R6.2	
+
+ATTRIBUTE DIFFERENCES
+---------------------
+Attribute Level	[ OLD DESIGN Parent -> NEW DESIGN Parent ]
+
+          Attribute Name           Old Value                New Value
+
